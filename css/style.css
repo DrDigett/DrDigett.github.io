@@ -1,0 +1,20 @@
+.header
+{
+  background-color: #2F343E;
+  height: 80px;
+
+/* centrar vertical mente */
+  display: flex;
+  align-items: center;
+/* centrar vertical mente */
+
+  /* SEPARADOR DE OBJECT */
+    justify-content: space-between;
+  /* SEPARADOR DE OBJECT */
+}
+
+.header img
+{
+  height: 60px;
+  width: 60px;
+}
