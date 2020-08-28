@@ -1,8 +1,12 @@
+body
+{
+  padding: 0px;
+  margin: 0px;
+}
 .header
 {
   background-color: #2F343E;
   height: 80px;
-
 /* centrar vertical mente */
   display: flex;
   align-items: center;
