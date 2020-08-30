@@ -45,6 +45,15 @@ body
 
 .header a
 {
+  font-family: 'PT Serif', serif;
   text-decoration: none;
   color: white;
+}
+
+.hero
+{
+  font-family: 'PT Serif', serif;
+  padding-top: 90px;
+  text-align: center;
+  font-size: 80px;
 }
