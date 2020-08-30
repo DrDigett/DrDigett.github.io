@@ -72,3 +72,45 @@ body
   font-size: 35px;
   color: #0B5345;
 }
+
+.me
+{
+  border: 1px solid  #2ECC71;
+  max-width: 760px;
+  max-height: 600px;
+  margin-left: 50px;
+  margin-top: 155px;
+  padding-left: 20px;
+  background-color: #2ECC71;
+}
+
+.me h1
+{
+  margin-left: 60px;
+  color: white;
+  font-family: 'PT Serif', serif;
+}
+
+.me p
+{
+  color: #0B5345;
+  padding-left: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.me img
+{
+  float: right;
+  margin-top: -250px;
+  margin-right: 10px;
+}
+
+.frase
+{
+  text-align: center;
+  margin-top: -300px;
+  margin-left: 870px;
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+
+}
