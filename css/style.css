@@ -6,7 +6,7 @@ body
 .header
 {
   background-color: #2F343E;
-  height: 80px;
+  height: 110px;
 /* centrar vertical mente */
   display: flex;
   align-items: center;
@@ -19,6 +19,32 @@ body
 
 .header img
 {
-  height: 60px;
-  width: 60px;
+  height: 90px;
+  width: 90px;
+  margin-left: -30px;
+}
+
+/* COSAS PARA UNA Navbar */
+.header ol
+{
+  /* Poner los objetos horizontalmente */
+  display: flex;
+  height: inherit;
+  align-items: center;
+  /* Poner los objetos horizontalmente */
+}
+.header ol li
+{
+  display: flex;
+  height: 50px;
+  padding-left: 40px;
+  align-items: center;
+}
+
+/* COSAS PARA UNA Navbar */
+
+.header a
+{
+  text-decoration: none;
+  color: white;
 }
