@@ -54,6 +54,13 @@ body
 {
   font-family: 'PT Serif', serif;
   padding-top: 90px;
+  margin-bottom: -50px;
   text-align: center;
   font-size: 80px;
+
+}
+
+.description_container
+{
+  text-align: center; 
 }
