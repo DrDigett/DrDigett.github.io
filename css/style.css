@@ -5,7 +5,7 @@ body
 }
 .header
 {
-  background-color: #2F343E;
+  background-color: #0B5345;
   height: 110px;
 /* centrar vertical mente */
   display: flex;
@@ -54,13 +54,21 @@ body
 {
   font-family: 'PT Serif', serif;
   padding-top: 90px;
-  margin-bottom: -50px;
+  margin-bottom: -70px;
   text-align: center;
   font-size: 80px;
-
+  color: #2ECC71;
 }
 
 .description_container
 {
-  text-align: center; 
+  text-align: center;
+  font-size: 25px;
+}
+
+.description_container h2
+{
+  margin-top: -20px;
+  font-size: 35px;
+  color: #0B5345;
 }
