@@ -1,4 +1,27 @@
+.relato_container
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 600px;
+
+}
+
+.titulo_container h1
+{
+  font-size: 80px;
+  margin-top: auto;
+}
+
 .titulo_container h4
 {
-  margin-top: -30px;
+  margin-top: -65px;
+  margin-left: 0px;
+  font-size: 15px;
+}
+
+.historia_container
+{
+  margin-left: 60px;
+  margin-right: 60px;
 }
