@@ -1,27 +1,52 @@
 .relato_container
 {
-  margin-left: auto;
+  margin-left: 290px;
   margin-right: auto;
   display: block;
-  max-width: 600px;
+  max-width: 900px;
 
 }
 
 .titulo_container h1
 {
+  color: #2ECC71;
   font-size: 80px;
-  margin-top: auto;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-decoration: underline;
 }
 
 .titulo_container h4
 {
-  margin-top: -65px;
-  margin-left: 0px;
-  font-size: 15px;
+  color: #0B5345;
+  margin-top: -55px;
+  margin-left: 100px;
+  font-size: 40px;
 }
 
+.image_container
+{
+  margin-left: 80px;
+  margin-right: auto;
+}
 .historia_container
 {
   margin-left: 60px;
   margin-right: 60px;
+  font-size: 20px;
+  color: white;
+}
+
+.historia_container a
+{
+  color: #2ECC71;
+  font-size: 30px;
+}
+
+.historia_container h3
+{
+  margin-left: 0px;
+  margin-top: -20px;
+  color: #2ECC71;
+  font-size: 40px;
 }
