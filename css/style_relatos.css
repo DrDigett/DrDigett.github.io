@@ -2,7 +2,7 @@
 {
   margin-left: 290px;
   margin-right: auto;
-  display: block;
+  display: block; /* elementos de forma horizontal */
   max-width: 900px;
 
 }
