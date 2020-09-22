@@ -1,0 +1,27 @@
+.relatoContainer{
+  padding-top:  50px;
+  padding-left: 90px;
+  padding-right: auto;
+  display: flex;
+}
+
+.relato01{
+  height: 450px;
+  width: 450px;
+  margin-left: 110px;
+}
+
+.relato01 img {
+  height: 300px;
+  width: 450px;
+}
+
+.texto{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.texto a{
+  font-size: 40px;
+  color: white;
+}
