@@ -53,7 +53,12 @@ body
   color: white;
 }
 
-
+.header{
+  top: 20px;
+  left: 50px;
+  z-index: 4;
+  background-color: inherit;
+}
 
 .hero
 {
@@ -106,6 +111,7 @@ body
 
 .me img
 {
+
   float: right;
   margin-top: -250px;
   margin-right: 20px;
