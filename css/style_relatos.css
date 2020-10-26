@@ -12,7 +12,7 @@
   color: #2ECC71;
   font-size: 80px;
   margin-top: 20px;
-  margin-left: 50px;
+  justify-content: center;
   text-decoration: underline;
 }
 
@@ -26,13 +26,12 @@
 
 .image_container
 {
-  margin-left: 80px;
-  margin-right: auto;
+  justify-content: center;
 }
 .historia_container
 {
-  margin-left: 60px;
-  margin-right: 60px;
+  justify-content: center;
+  max-width: 735px;
   font-size: 20px;
   color: white;
 }
