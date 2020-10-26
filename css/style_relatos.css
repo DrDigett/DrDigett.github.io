@@ -19,15 +19,16 @@
 .titulo_container h4
 {
   color: #0B5345;
-  margin-top: -55px;
-  margin-left: 100px;
+  justify-content: center;
   font-size: 40px;
 }
 
 .image_container
 {
+  margin-top: -30px;
   justify-content: center;
 }
+
 .historia_container
 {
   justify-content: center;
@@ -36,13 +37,13 @@
   color: white;
 }
 
-.historia_container a
+.historiaContainer a
 {
   color: #2ECC71;
   font-size: 30px;
 }
 
-.historia_container h3
+.historiaContainer h3
 {
   margin-left: 0px;
   margin-top: -20px;
