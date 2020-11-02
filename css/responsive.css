@@ -88,3 +88,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 425px){
+  body{
+    background-color: red;
+  }
+}
