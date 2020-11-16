@@ -1,27 +1,20 @@
-.relatoContainer{
-  padding-top:  50px;
-  padding-left: 90px;
-  padding-right: auto;
-  display: flex;
+.blogs-posts-container .relato01{
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
-.relato01{
-  height: 450px;
-  width: 450px;
-  margin-left: 110px;
+.blogs-posts-container .relato01{
+    margin-bottom: 35px;
 }
 
-.relato01 img {
-  height: 300px;
-  width: 450px;
+.blogs-posts-container{
+  margin: 50px;
+}
+.blogs-posts-container .relato01 img{
+    width: 600px;
 }
 
-.texto{
-  margin-top: 20px;
-  margin-left: 50px;
-}
-
-.texto a{
-  font-size: 40px;
-  color: white;
+.menu-container{
+    max-width: 1500px;
+    margin: auto;
 }
