@@ -18,3 +18,13 @@
     max-width: 1500px;
     margin: auto;
 }
+
+.texto{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.texto a{
+  font-size: 40px;
+  color: white;
+}
