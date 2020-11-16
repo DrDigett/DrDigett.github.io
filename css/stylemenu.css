@@ -1,6 +1,7 @@
 .blogs-posts-container .relato01{
     display: inline-block;
     margin-bottom: 50px;
+    margin-right: 10px;
 }
 
 .blogs-posts-container .relato01{
@@ -12,6 +13,7 @@
 }
 .blogs-posts-container .relato01 img{
     width: 600px;
+    max-height: 310px;
 }
 
 .menu-container{
@@ -20,11 +22,17 @@
 }
 
 .texto{
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
   margin-left: 50px;
 }
 
 .texto a{
   font-size: 40px;
   color: white;
+}
+
+.textogrande a{
+    font-size: 30px;
 }
