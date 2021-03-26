@@ -1,9 +1,8 @@
 .relato_container
 {
-  margin-left: 290px;
-  margin-right: auto;
+  margin: 0 auto;
   display: block; /* elementos de forma horizontal */
-  max-width: 900px;
+  max-width: 85%;
 
 }
 
@@ -18,35 +17,43 @@
 
 .titulo_container h4
 {
+  margin-top: -30px;
   color: #0B5345;
   justify-content: center;
-  font-size: 40px;
+  font-size: 15px;
 }
 
 .image_container
 {
-  margin-top: -30px;
+  margin-top: 150px;
   justify-content: center;
 }
-
+.image_container img{
+  height: 100%;
+  width: 100%;
+}
 .historia_container
 {
   justify-content: center;
-  max-width: 735px;
+  max-width: 100%;
   font-size: 20px;
-  color: white;
+  color: #0B5345;
 }
 
-.historiaContainer a
+.historia_container a
 {
   color: #2ECC71;
   font-size: 30px;
 }
 
-.historiaContainer h3
+.historia_container h3
 {
   margin-left: 0px;
   margin-top: -20px;
   color: #2ECC71;
   font-size: 40px;
+}
+
+.historia_container p{
+  margin: 60px 0;
 }
