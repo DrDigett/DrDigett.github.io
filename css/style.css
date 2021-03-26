@@ -2,109 +2,96 @@ body
 {
   padding: 0px;
   margin: 0px;
-  background-color: #0B5345;
+  background-color: #dbdbdb;
+  width: 100%;
+  color: black;
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+
 }
 
 .header
 {
-  background-color: #0B5345;
-  height: 110px;
-/* centrar vertical mente */
+  height: 250px;
+  min-width: 100%;
+  background-color:#2ECC71;
+  /*--centrar vertical mente */
   display: flex;
   align-items: center;
-/* centrar vertical mente */
+  /*--centrar vertical mente */
 
-  /* SEPARADOR DE OBJECT */
-    justify-content: space-between;
-  /* SEPARADOR DE OBJECT */
-  width: 100%;
+  /*--SEPARADOR DE OBJETOS */
+  justify-content: space-between;
+  /*--SEPARADOR DE OBJETOS*/
+  
+  z-index: 4;
 }
-
-.header img
-{
-  height: 90px;
-  width: 90px;
-  margin-left: -30px;
-}
-
-/* COSAS PARA UNA Navbar */
+/*------------------- COSAS PARA UNA Navbar */
 .header ol
 {
   /* Poner los objetos horizontalmente */
   display: flex;
   height: inherit;
-  align-items: center;
+  padding-top: auto 0;
   /* Poner los objetos horizontalmente */
 }
+  
 .header ol li
 {
   display: flex;
-  height: 50px;
   padding-left: 30px;
   align-items: center;
 }
-
-/* COSAS PARA UNA Navbar */
-
-.header a
-{
-  font-family: 'PT Serif', serif;
+.header a{
   text-decoration: none;
   margin:20px;
-  color: white;
+  color: #0B5345;
 }
+/*----------------------COSAS PARA UNA Navbar*/
 
-.header{
-  top: 20px;
-  left: 50px;
-  z-index: 4;
-  background-color: inherit;
-}
+
 
 .hero
 {
   font-family: 'PT Serif', serif;
-  padding-top: 90px;
-  margin-bottom: -70px;
   text-align: center;
-  font-size: 80px;
+  font-size: 300px;
   color: #2ECC71;
 }
 
 .description_container
 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -300px;
   text-align: center;
-  font-size: 25px;
-  color: white;
-}
-
-.description_container h2
-{
-  margin-top: -20px;
-  font-size: 35px;
+  font-size: 50px;
   color: #0B5345;
+
 }
 
 .me
 {
   border: 1px solid  #2ECC71;
-  max-width: 760px;
-  max-height: 600px;
-  margin-left: 50px;
+  background-color: #2ECC71;
+  width: 95%;
+  min-height:70%;
+  margin: 0 auto;
   margin-top: 155px;
   padding-left: 20px;
-  background-color: #2ECC71;
 }
 
 .me h1
 {
-  margin-left: 60px;
-  color: white;
   font-family: 'PT Serif', serif;
+  font-size: 160px;
+  margin-left: 0px;
+  color: white;
 }
 
 .me p
 {
+  text-align:initial;
   color: #0B5345;
   padding-left: 15px;
   font-family: 'Roboto Mono', monospace;
@@ -112,7 +99,7 @@ body
 
 .me img
 {
-
+  display: none;
   float: right;
   margin-top: -250px;
   margin-right: 20px;
@@ -120,11 +107,10 @@ body
 
 .frase
 {
-  color: white;
+  color: #0B5345;
   text-align: center;
-  margin-top: -300px;
-  margin-left: 870px;
-  font-size: 40px;
+  margin: 30px auto;
+  font-size: 90px;
   font-family: 'Architects Daughter', cursive;
 
 }
@@ -132,14 +118,14 @@ body
 .razon
 {
   border: 1px solid  #2ECC71;
-  max-width: 760px;
-  margin-left: 40px;
+  width: 95%;
+  min-height: 70%;
+  margin: 0 auto;
   margin-top: 65px;
   padding-left: 20px;
   background-color: #2ECC71;
   padding-left: 35px;
   font-family: 'Roboto Mono', monospace;
-  height: 280px;
 }
 
 .razon h1
@@ -158,18 +144,26 @@ body
 
 .razon img
 {
+  display: none;
   float: right;
   height: 270px;
-  margin-top: -225px;
-  margin-right: 10px;
+  margin-top: -150px;
+  margin-right: 0px;
 }
 
 .frase_01
 {
-  color: white;
+
+  color: #0B5345;
   text-align: center;
-  margin-top: -200px;
-  margin-left: 870px;
-  font-size: 40px;
+  margin: 0 auto;
+  margin-top: -90px;
+  font-size: 90px;
   font-family: 'Architects Daughter', cursive;
+}
+
+footer{
+  margin-top: 100px;
+  min-width: 600px;
+  background-color: #2ECC71;
 }

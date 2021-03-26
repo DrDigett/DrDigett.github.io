@@ -32,65 +32,67 @@
 .burger-button{
   display: none;
 }
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
+  body{
+    font-size: 35px;
+  }
   .header{
-    width: 1005px;
+    height: 100px;
   }
   .hero{
-    width: 1005px;
+    margin-top:-150px;
   }
   .me{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    position: relative;
-    left: 5px;
+    width: 800px;
+    height: 60%;
+    margin: 0 10px;
+    margin-top: 100px;
+  }
+  .me h1{
+    margin-top: 15px;
+    margin-bottom: -20px;
+    font-size: 60px;
+  }
+
+  .me p{
+    font-size: 30px;
   }
   .frase{
-    margin: inherit;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 20px;
+    margin-right: 1px;
+    float: right;
+    margin-top: -450px;
+    width: 500px;
+    font-size: 70px;
   }
-
   .razon{
-    margin-left: auto;
-    margin-right: auto;
+    width: 800px;
+    height: 60%;
+    margin: 0 10px;
+    margin-top: 100px;
   }
-  .frase_01{
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+  .razon h1{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: -40px;
+  }
+  .razon p{
+    margin-left: -30px;
+  }
+
+  .gifImg{
+    float: right;
     display: flex;
-    position: relative;
-    top: 200px;
+    height: 400px;
+    margin-top: -400px;
   }
 }
 
-@media screen and (max-width: 767px){
-  .burger-button{
-    display: block;
-    line-height: 40px;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, .8);
-    position: fixed;
-    left: 5px;
-    top: 5px;
-    color: #2ECC71;
-    z-index: 4;
-  }
-  .MyPhoto{
-    display: none;
+@media screen and (min-width: 767px){
+  .gifImg{
+    margin-left: 200px;
   }
 }
 
-@media screen and (max-width: 425px){
-  body{
-    background-color: red;
-  }
+@media screen and (min-width: 425px){
+
 }
