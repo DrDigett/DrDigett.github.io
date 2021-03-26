@@ -21,10 +21,18 @@ body
   /*--centrar vertical mente */
 
   /*--SEPARADOR DE OBJETOS */
-  justify-content: space-between;
+  justify-content: space-evenly;
   /*--SEPARADOR DE OBJETOS*/
   
   z-index: 4;
+}
+
+.header h1{
+  color: #0B5345;
+}
+
+.header .menu{
+  display: none;
 }
 /*------------------- COSAS PARA UNA Navbar */
 .header ol

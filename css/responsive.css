@@ -39,6 +39,12 @@
   .header{
     height: 100px;
   }
+  .header .menu{
+    display: flex;
+    margin-left: 200px;
+    font-size: 30px;
+  }
+
   .hero{
     margin-top:-150px;
   }
