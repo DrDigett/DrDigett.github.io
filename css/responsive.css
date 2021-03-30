@@ -32,6 +32,7 @@
 .burger-button{
   display: none;
 }
+
 @media screen and (min-width: 1024px){
   body{
     font-size: 35px;
@@ -39,10 +40,34 @@
   .header{
     height: 100px;
   }
+  .display{
+    width: 0px;
+    height: 0px;
+  }
   .header .menu{
     display: flex;
     margin-left: 200px;
     font-size: 20px;
+  }
+
+  .header-container{
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  .header-container:hover{
+    background-color: #2ECC71;
+    margin-top: 0px;
+
+    border: 0px solid #9b9b9b;
+  }
+  .header-container:hover h1{
+    margin-left: 0px;
+    color: #0B5345;
+
+  }
+
+  .header-container:hover .display{
+    display: none;
   }
 
   .hero{
@@ -84,21 +109,4 @@
   .razon p{
     margin-left: -30px;
   }
-
-  .gifImg{
-    float: right;
-    display: flex;
-    height: 400px;
-    margin-top: -400px;
-  }
-}
-
-@media screen and (min-width: 767px){
-  .gifImg{
-    margin-left: 200px;
-  }
-}
-
-@media screen and (min-width: 425px){
-
 }

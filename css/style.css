@@ -28,7 +28,10 @@ body
 }
 
 .header h1{
+  height: 98px;
   color: #0B5345;
+  margin:0px;
+  margin-top: 15px;
 }
 
 .header .menu{
@@ -46,16 +49,43 @@ body
   
 .header ol li
 {
+  height: 100px;
   display: flex;
   padding-left: 30px;
   align-items: center;
 }
+.header ol li:hover{
+  background-color: #dbdbdb;
+}
+
 .header a{
   text-decoration: none;
-  margin:20px;
+  margin: auto 20px;
   color: #0B5345;
 }
 /*----------------------COSAS PARA UNA Navbar*/
+
+.display{
+  display: none;
+  min-height: 50px;
+}
+.display ol{
+  display: block;
+}
+.display a{
+  color: #0B5345;
+}
+.header-container:hover h1{
+  margin-left: 100px;
+  color: #2ECC71;
+}
+.header-container:hover{
+  background: #dbdbdb;
+  margin-top: 400px;
+}
+.header-container:hover .display{
+  display: flex;
+}
 
 
 
@@ -174,4 +204,8 @@ footer{
   margin-top: 100px;
   min-width: 600px;
   background-color: #2ECC71;
+}
+
+.gifImg{
+  margin-left: 10rem;
 }
