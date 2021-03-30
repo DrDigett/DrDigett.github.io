@@ -109,4 +109,10 @@
   .razon p{
     margin-left: -30px;
   }
+  .gifImg{
+    float: right;
+    display: flex;
+    height: 400px;
+    margin-top: -400px;
+  }
 }
