@@ -61,7 +61,7 @@ body
 .header a{
   text-decoration: none;
   margin: auto 20px;
-  color: #0B5345;
+  color: black;
 }
 /*----------------------COSAS PARA UNA Navbar*/
 
@@ -73,7 +73,6 @@ body
   display: block;
 }
 .display a{
-  color: #0B5345;
 }
 .header-container:hover h1{
   margin-left: 100px;
@@ -104,7 +103,6 @@ body
   margin-top: -300px;
   text-align: center;
   font-size: 50px;
-  color: #0B5345;
 
 }
 
@@ -130,7 +128,6 @@ body
 .me p
 {
   text-align:initial;
-  color: #0B5345;
   padding-left: 15px;
   font-family: 'Roboto Mono', monospace;
 }
@@ -145,7 +142,6 @@ body
 
 .frase
 {
-  color: #0B5345;
   text-align: center;
   margin: 30px auto;
   font-size: 90px;
@@ -175,7 +171,6 @@ body
 
 .razon p
 {
-  color: #0B5345;
   padding-left: 45px;
   padding-top: 25px
 }
@@ -192,7 +187,6 @@ body
 .frase_01
 {
 
-  color: #0B5345;
   text-align: center;
   margin: 0 auto;
   margin-top: -90px;
