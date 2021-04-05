@@ -31,6 +31,12 @@
   height: 100%;
   width: 100%;
 }
+
+.image_container video{
+  margin-top: -100px;
+  height: 100%;
+  width: 100%;
+}
 .historia_container
 {
   justify-content: center;
