@@ -1,17 +1,18 @@
 .blogs-posts-container{
   display: grid;
-  grid-template-columns: auto auto;
-  margin: 50px auto;
-  margin-left: 10px;
+  grid-template-columns: 90%;
+  margin-top: 50px;
+  margin-left: 15% ;
   grid-gap: 90px;
 }
 
 .relato{
   width: 100%;
+  grid-column: auto;
 }
 
 .relato img{
-  height: 350px;
+  height: 70%;
   width: 95%;
 }
 
@@ -23,4 +24,14 @@
 
 .relato a:hover{
   text-decoration: overline;
+}
+
+@media screen and (min-width: 1024px){
+  .blogs-posts-container{
+    grid-template-columns: 500px 500px;
+    margin-left: 8%;
+  }
+  .relato{
+    width: 100%;
+  }
 }
