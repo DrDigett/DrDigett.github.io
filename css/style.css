@@ -10,6 +10,25 @@ body
 
 }
 
+.btn-index{
+  margin-left: 160px;
+  font-size: 150px;
+}
+.btn{
+  color: #0B5345;
+  border-radius: 5%;
+  border: #2ECC71 10px solid;
+  background-color: #2ECC71;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: #2ECC71;
+  background-color: #0B5345;
+  border: #0B5345 10px solid;
+}
+
+
 .header
 {
   height: 250px;
@@ -207,7 +226,9 @@ footer{
 }
 
 .gifImg{
+  margin-top: 100px;
   margin-left: 10rem;
+  margin-bottom: 100px;
 }
 
 footer{

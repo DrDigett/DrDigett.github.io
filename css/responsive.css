@@ -37,6 +37,10 @@
   body{
     font-size: 35px;
   }
+
+  .btn-index{
+    margin-left: 350px ;
+  }
   .header{
     height: 100px;
   }
