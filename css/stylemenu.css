@@ -29,7 +29,7 @@
 @media screen and (min-width: 1024px){
   .blogs-posts-container{
     grid-template-columns: 500px 500px;
-    margin-left: 8%;
+    margin-left: 15%;
   }
   .relato{
     width: 100%;
