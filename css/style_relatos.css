@@ -24,7 +24,7 @@
 
 .image_container
 {
-  margin-top: 150px;
+  margin-top: 100px;
   justify-content: center;
 }
 .image_container img{
@@ -59,7 +59,7 @@
 }
 
 .historia_container p{
-  margin: 60px 0;
+  margin: 40px 0;
   color: #0B5345;
 }
 
