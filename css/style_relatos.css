@@ -70,12 +70,17 @@
 }
 .inciso__container{
   width: 50%;
-
   background-color: #c0bebe;
   padding: 5px 30px;
   margin: 0 auto;
-
 }
+
+.inciso__container h3{
+  color: #0B5345;
+  font-weight: 900;
+}
+
+
 footer{
   display: flex;
   justify-content: center;

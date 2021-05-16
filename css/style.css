@@ -234,3 +234,13 @@ footer{
 footer{
   color: white;
 }
+
+
+/*Genericos*/
+.mt-50{
+  margin-top: 50px !important;
+}
+
+.mb-50{
+  margin-bottom: 50px !important;
+}
