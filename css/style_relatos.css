@@ -69,16 +69,18 @@
   margin: 40px 0;
   color: #0B5345;
 }
+
 .inciso__container{
   width: 90%;
   background-color: #c0bebe;
   padding: 5px 30px;
   margin: 0 auto;
+  font-size: 2.5rem;
 }
 
 .inciso__container a{
   color: #0B5345;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 .inciso__container h3{
@@ -113,5 +115,9 @@ footer a{
 @media screen and (min-width: 1024px){
   .inciso__container{
     width: 50%;
+    font-size: 20px;
+  }
+  .inciso__container a{
+    font-size: 25px;
   }
 }
