@@ -86,7 +86,16 @@
   font-weight: 900;
 }
 
+.btn-post{
+  margin: 10px 0px;
+  max-width: 20%;
+  display: flex;
+  color: #0B5345 !important;
+}
 
+.btn-post:hover{
+  color: #2ECC71 !important;
+}
 
 #disqus_thread{
   margin-top: 15%;
