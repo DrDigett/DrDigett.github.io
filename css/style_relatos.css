@@ -9,7 +9,7 @@
 .titulo_container h1
 {
   color: #2ECC71;
-  font-size: 8rem;
+  font-size: 6.5rem;
   margin-top: 20px;
   justify-content: center;
   text-decoration: underline;
@@ -19,7 +19,7 @@
 {
   margin-top: -30px;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .image_container
@@ -27,12 +27,12 @@
   margin-top: 50px;
   margin-bottom: 50px;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: .5rem;
 }
 .video_container{
   margin-top: 120px;
   justify-content: center;
-  font-size: 1.5rem; 
+  font-size: .5rem; 
 }
 .image_container img{
   height: 100%;
@@ -49,13 +49,13 @@
 {
   justify-content: center;
   max-width: 100%;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .historia_container a
 {
   color: #2ECC71;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .historia_container h3
@@ -63,7 +63,7 @@
   margin-left: 0px;
   margin-top: -20px;
   color: #2ECC71;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .historia_container p{
@@ -76,12 +76,12 @@
   background-color: #c0bebe;
   padding: 5px 30px;
   margin: 0 auto;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .inciso__container a{
   color: #0B5345;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
 }
 .inciso__container h3{
