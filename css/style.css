@@ -1,246 +1,176 @@
+:root{
+  --color-primary: #2ecc71;
+  --color-secundary:#0b5345;
+  --color-alternative: #dbdbdb;
+  --white-color: #FFFFFF;
+}
+* {
+  margin: 0px;
+}
 body
 {
   padding: 0px;
-  margin: 0px;
-  background-color: #dbdbdb;
-  width: 100%;
-  color: black;
+  background-color: var(--color-alternative);
+  color: var(--color-secundary);
   font-size: 50px;
   font-family: 'Roboto Mono', monospace;
 
 }
+a{
+  cursor: pointer;
 
-.btn-index{
-  margin-left: 160px;
-  font-size: 150px;
 }
-.btn{
-  color: #0B5345;
-  border-radius: 5%;
-  border: #2ECC71 10px solid;
-  background-color: #2ECC71;
-  text-decoration: none;
-}
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
 
-.btn:hover{
-  color: #2ECC71;
-  background-color: #0B5345;
-  border: #0B5345 10px solid;
-}
-
-
-.header
-{
-  height: 250px;
-  min-width: 100%;
-  background-color:#2ECC71;
-  /*--centrar vertical mente */
-  display: flex;
-  align-items: center;
-  /*--centrar vertical mente */
-
-  /*--SEPARADOR DE OBJETOS */
-  justify-content: space-evenly;
-  /*--SEPARADOR DE OBJETOS*/
-  
-  z-index: 4;
-}
-
-.header h1{
-  height: 98px;
-  color: #0B5345;
-  margin:0px;
-  margin-top: 15px;
-}
-
-.header .menu{
-  display: none;
-}
-/*------------------- COSAS PARA UNA Navbar */
-.header ol
-{
-  /* Poner los objetos horizontalmente */
-  display: flex;
-  height: inherit;
-  padding-top: auto 0;
-  /* Poner los objetos horizontalmente */
-}
-  
-.header ol li
-{
-  height: 100px;
-  display: flex;
-  padding-left: 30px;
-  align-items: center;
-}
-.header ol li:hover{
-  background-color: #dbdbdb;
-}
-
-.header a{
-  text-decoration: none;
-  margin: auto 20px;
-  color: #0B5345;
-}
-/*----------------------COSAS PARA UNA Navbar*/
-
-.display{
-  display: none;
-  min-height: 50px;
-}
-.display ol{
-  display: block;
-}
-.display a{
-  color: #0B5345;
-}
-.header-container:hover h1{
-  margin-left: 100px;
-  color: #2ECC71;
-}
-.header-container:hover{
-  background: #dbdbdb;
-  margin-top: 400px;
-}
-.header-container:hover .display{
-  display: flex;
-}
-
-
-
-.hero
-{
-  font-family: 'PT Serif', serif;
-  text-align: center;
-  font-size: 300px;
-  color: #2ECC71;
-}
-
-.description_container
-{
-  width: 80%;
-  margin: 0 auto;
-  margin-top: -300px;
-  text-align: center;
+header{
+  background-color: var(--color-primary);
+  position: fixed;
+  width: 100%;
+  height: 180px;
+  top: 0;
+  left: 0;
   font-size: 50px;
-  color: #0B5345;
-
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.nav h1 a{
+  color: var(--white-color);
+  margin: 0px;
+  text-decoration: none;
 }
 
-.me
-{
-  border: 1px solid  #2ECC71;
-  background-color: #2ECC71;
+.nav-toggle{
+  color: var(--white-color);
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 50px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+}
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  background-color: var(--color-primary);
+  position: fixed;
+  left: 100%;
+  transition: left 0.3s;
+  top: 160px;
+  width: 100%;
+  height: calc(100%- 60px);
+  overflow-y: auto;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.nav ul li{
+  margin: 50px 0;
+}
+
+.nav ul li a{
+  color: var(--color-secundary);
+  text-decoration: none;
+}
+
+.nav ul li a:hover{
+  color: var(--white-color);
+}
+
+.nav-menu_visible{
+  left: 0;
+}
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+
+
+.grilla{
+  margin-top: 300px;
   width: 95%;
-  min-height:70%;
-  margin: 0 auto;
-  margin-top: 155px;
-  padding-left: 20px;
+  display: grid;
+  grid-template-rows: 980px 1fr;
 }
 
-.me h1
-{
-  font-family: 'PT Serif', serif;
+.hero{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 360px 1fr;
+  justify-content: center;
+}
+.hero .title{
+  font-size: 290px;
+  color: var(--color-primary);
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.hero .description{
+  font-size:  70px;
+  align-items: center;
+  text-align: center;
+}
+
+.text-container{
+  display: grid;
+  grid-template-rows: 1fr 500px 1fr 750px;
+}
+
+.text-container .me{
+  grid-row: 1/2;
+  background-color: var(--color-primary);
+  width: 95%;
+  margin: 0px auto;
+  padding: 40px 15px;
+  border-radius: 5%;
+}
+.me h1{
+  color: var(--white-color);
+  font-family: "PT Serif", serif;
   font-size: 160px;
   margin-left: 0px;
-  color: white;
-}
-
-.me p
-{
-  text-align:initial;
-  color: #0B5345;
-  padding-left: 15px;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.me img
-{
-  display: none;
-  float: right;
-  margin-top: -250px;
-  margin-right: 20px;
-}
-
-.frase
-{
-  color: #0B5345;
   text-align: center;
+}
+.me p{
+  font-size: 25px;
+}
+.me img{
+  display: none;
+}
+.text-container .frase{
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 90px;
+  font-family: "Architects Daughter", cursive;
   margin: 30px auto;
-  font-size: 90px;
-  font-family: 'Architects Daughter', cursive;
-
 }
 
-.razon
-{
-  border: 1px solid  #2ECC71;
+.text-container .razon{
+  grid-row: 3/4;
+  background-color: var(--color-primary);
   width: 95%;
-  min-height: 70%;
-  margin: 0 auto;
-  margin-top: 65px;
-  padding-left: 20px;
-  background-color: #2ECC71;
-  padding-left: 35px;
-  font-family: 'Roboto Mono', monospace;
+  margin: 0px auto;
+  padding: 40px 15px;
+  border-radius: 5%;
+
 }
-
-.razon h1
-{
-  margin-left: 60px;
-  color: white;
-  font-family: 'PT Serif', serif;
-}
-
-.razon p
-{
-  color: #0B5345;
-  padding-left: 45px;
-  padding-top: 25px
-}
-
-.razon img
-{
-  display: none;
-  float: right;
-  height: 270px;
-  margin-top: -150px;
-  margin-right: 0px;
-}
-
-.frase_01
-{
-
-  color: #0B5345;
+.razon h1{
+  color: var(--white-color);
+  font-family: "PT Serif", serif;
+  font-size: 100px;
+  margin-left: 0px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: -90px;
-  font-size: 90px;
-  font-family: 'Architects Daughter', cursive;
 }
-
-footer{
-  margin-top: 100px;
-  min-width: 600px;
-  background-color: #2ECC71;
-}
-
 .gifImg{
-  margin-top: 100px;
-  margin-left: 10rem;
-  margin-bottom: 100px;
-}
-
-footer{
-  color: white;
-}
-
-
-/*Genericos*/
-.mt-50{
-  margin-top: 50px !important;
-}
-
-.mb-50{
-  margin-bottom: 50px !important;
+  grid-row: 4/5;
+   margin: 50px auto;
 }
