@@ -94,83 +94,80 @@ header{
 
 
 .grilla{
-  margin-top: 300px;
-  width: 95%;
+  margin-top: 150px;
   display: grid;
-  grid-template-rows: 980px 1fr;
+  grid-template-rows: 600px 1fr 400px;
+  justify-items: center;
+  align-items: center;
 }
 
 .hero{
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 360px 1fr;
+  grid-row: 1/2;
+  display: flex;
   justify-content: center;
+  margin-bottom: 210px;
 }
 .hero .title{
-  font-size: 290px;
-  color: var(--color-primary);
-  font-family: "PT Serif", serif;
   text-align: center;
 }
-
-.hero .description{
-  font-size:  70px;
-  align-items: center;
-  text-align: center;
+.hero .title h1{
+  font-size: 280px;
+  color: #2ECC71;
+  font-family: 'PT Serif', serif;
+  margin-bottom: 0px;
 }
-
+.hero .title p{
+  font-size: 43px;
+}
 .text-container{
   display: grid;
-  grid-template-rows: 1fr 500px 1fr 750px;
-}
-
-.text-container .me{
-  grid-row: 1/2;
-  background-color: var(--color-primary);
-  width: 95%;
-  margin: 0px auto;
-  padding: 40px 15px;
-  border-radius: 5%;
-}
-.me h1{
-  color: var(--white-color);
-  font-family: "PT Serif", serif;
-  font-size: 160px;
-  margin-left: 0px;
-  text-align: center;
-}
-.me p{
-  font-size: 25px;
-}
-.me img{
-  display: none;
-}
-.text-container .frase{
   grid-row: 2/3;
-  text-align: center;
-  font-size: 90px;
-  font-family: "Architects Daughter", cursive;
-  margin: 30px auto;
+  gap: 120px;
+  justify-items: center;
+
 }
 
-.text-container .razon{
-  grid-row: 3/4;
+.text-container article{
   background-color: var(--color-primary);
-  width: 95%;
-  margin: 0px auto;
-  padding: 40px 15px;
-  border-radius: 5%;
-
+  max-width: 85%;
+  border-radius: 2%;
+  padding: 30px;
 }
-.razon h1{
+
+.text-container article h1{
   color: var(--white-color);
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-size: 100px;
-  margin-left: 0px;
   text-align: center;
 }
-.gifImg{
-  grid-row: 4/5;
-   margin: 50px auto;
+
+.text-container article p{
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.text-container .frase{
+  color: #0B5345;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 90px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.btn{
+  margin-top: 50px;
+  background-color: var(--color-primary);
+  color: var(--white-color);
+  padding: 30px;
+  font-size: 100px;
+  border-radius: 5%;
+}
+
+.btn:hover{
+  background-color: var(--color-secundary);
+}
+
+footer{
+  background-color: var(--color-primary);
+  color: var(--white-color);
 }

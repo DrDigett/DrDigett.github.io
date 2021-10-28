@@ -31,62 +31,40 @@
   .nav-menu li a{
     margin: 20px;
   }
-
+  .grilla{
+    margin-top: 160px;
+    grid-template-rows: 600px 1fr 500px;
+  }
   .text-container{
-    grid-template-columns: 70% 1fr;
-    grid-template-rows: 500px 1fr;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: center;
   }
 
-  .text-container .me{
-    grid-column: 1;
-    grid-row: 1;
-    height: 450px;
-    padding: 0px;
+  .text-container article{
+    grid-column: 1/2;
   }
-
-  .me h1{
-    margin-top: 0px;
-    font-size: 70px;
-    text-align: left;
-    padding-left: 5px;
+  .me{
+    margin-bottom: 50px;
   }
-
-  .me p{
-    padding:0 3%;
+  .text-container article h1{
+    font-size: 50px;
+  }
+  .text-container article p{
+    font-size: 20px;
   }
   .text-container .frase{
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 2/3;
+    font-size: 50px;
     text-align: center;
-    font-size: 60px;
-    font-family: "Architects Daughter", cursive;
-    margin: 30px auto;
   }
 
-  .text-container .razon{
-    grid-column: 1;
-    grid-row: 2;
-    height: 450px;
-    padding: 0px;
-  }
-  .razon h1{
-    margin-top: 0px;
-    font-size: 60px;
-    text-align: left;
-    padding-left: 5px;
-  }
-  .razon p{
-    margin-top: 50px;
-    padding:0 3%;
-    font-size: 32px;
-  }
   .text-container .gifImg{
-    grid-row: 2;
-    grid-column: 2;
-    width: 450px;
-    margin: 0;
+    width: 300px;
   }
 }
+
 /*
 @media screen and (min-width: 1024px){
   body{
