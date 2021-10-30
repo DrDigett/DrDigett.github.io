@@ -4,113 +4,109 @@
         <link rel="icon" href="images/foto.png">
         <meta= charset="UTF-8"/>
         <link rel="stylesheet" href="css/style.css">
+    
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/animation.css">
+        
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <script
+          src="https://kit.fontawesome.com/7e5b2d153f.js"
+          crossorigin="anonymous"
+        ></script>
+
         <title>
            DigettNotes+
         </title>
     </head>
     <body>
-      <!--- Navbar-->
-      <i class="icon-menu burger-button"></i>
+
+      <!--- header -->
       <nav class="fadeInDown">
-        <header class="header">
-              
-          <div class="header-container">
+        <header>
+          <nav class="nav">
             <h1>
-              DigettNotes+
+              <a href="index.html">DigettNotes+</a>
             </h1>
-            <div class="display">
-            <ol>
+            <button class="nav-toggle" aria-label="Abrir menú">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
               <li>
-                <a href="https://www.facebook.com/DrDigett">Mi pagina de Facebook</a>
+                <a href="https://www.facebook.com/DrDigett">Facebook</a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCBGBlRrKyfvwwYQAC4i_L-A?view_as=subscriber">Mi canal de Youtube</a>
-              </li>
-              <li>
-                <a href="menuR.html">Relatos</a>
-              </li>
-            </ol>
-            </div> 
-          </div>
-          <nav class="menu">
-            <ol>
-              <li>
-                <a href="https://www.facebook.com/DrDigett">Mi pagina de Facebook</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UCBGBlRrKyfvwwYQAC4i_L-A?view_as=subscriber">Mi canal de Youtube</a>
+                <a href="https://www.youtube.com/channel/UCBGBlRrKyfvwwYQAC4i_L-A?view_as=subscriber">Youtube</a>
               </li>
               <li>
                 <a href="menuR.html">Relatos</a>
               </li>
-            </ol>
+            </ul>
           </nav>
         </header>
       </nav>
-      <!--- Navbar-->
+      <!--- header -->
       
-      <!--  HERO -->
-      <nav class="fadeInUp">
+      <main class="grilla">
+        <!--  HERO -->
         <section class="hero">
           <div class="title">
-             <p>DtNts+</p>
+             <h1>DtNts+</h1>
+             <p>En esta página podras ver todas mis notas mentales</p>
           </div>
         </section>
-        <div class="description_container">
-          <p>
-            En esta página podras ver todas mis notas mentales
-          </p>
-        </div>
-      </nav>
         <!--  HERO -->
-        <nav class="fadeInUp">
-
-        <article class="me">
-          <h1>¿Quien soy?</h1>
-          <p>
-            Soy de Peru que nacio el 2 de julio del 2005 en
-            un dia lluvioso (segun mi mamá :S).
-            Me gusta la tecnologia y los videojuegos
-            los cuales juego diario
-            tambien me gustan mucho las 
-            peliculas (especialmente las de gangsters).
-            Varias personas me han dicho que soy
-            distraido pero yo pienso que es mi imaginacion
-            desbordando mi cabeza. Y esa es una de las
-            razones por las que arme esto.
-          </p>
-          <img src="images/hogera.gif" alt=""/>
-        </article>
-        <div class="frase">
-          "La imaginacion son<br>
-          las alas del hombre"
-        </div>
-
-        <article class="razon">
-          <h1>¿Por qué creaste esto?</h1>
-          <p>
-            Quiero expresar las ideas que<br>
-            atormentan mi cabeza. A menudo<br>
-            me pasan y ocurren relatos que<br>
-            me gustaria recordar.<br>
-            Aparte quiero mejorar en html,<br>
-            css y javaScript.
-          </p>
-        </article>
+        <section class="text-container">      
+            
+          <article class="me">
+            <h1>¿Quien soy?</h1>
+            <p>
+              Soy de Peru que nacio el 2 de julio del 2005 en
+              un dia lluvioso (segun mi mamá :S).
+              Me gusta la tecnologia y los videojuegos
+              los cuales juego diario
+              tambien me gustan mucho las 
+              peliculas (especialmente las de gangsters).
+              Varias personas me han dicho que soy
+              distraido pero yo pienso que es mi imaginacion
+              desbordando mi cabeza. Y esa es una de las
+              razones por las que arme esto.
+            </p>
+            <!--<img src="images/hogera.gif" alt=""/>-->
+          </article>
+          <div class="frase">
+            "La imaginacion son<br>
+            las alas del hombre"
+          </div>
+    
+          <article class="razon">
+            <h1>¿Por qué creaste esto?</h1>
+            <p>
+              Quiero expresar las ideas que
+              atormentan mi cabeza. A menudo
+              me pasan y ocurren relatos que
+              me gustaria recordar. Aparte quiero mejorar en html,
+              css y javaScript.
+            </p>
+          </article>
           <img class="gifImg" src="images/goku_black.gif" alt="">
-        </nav>
+
+        </section>
+
 
         <nav class="fadeInUp">
           <a class="btn btn-index" href="/menuR.html">Relatos</a>
         </nav>
-        
-        <footer>
-          <!--@dr.gonas❤️-->
-        </footer>
+      </main>
+
+
+      
+      <footer>
+       @dr.gonas❤️
+      </footer>
+      
+      <script src="./header.js"></script>
+
     </body>
 </html>

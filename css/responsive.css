@@ -1,38 +1,71 @@
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/menuFont/icomoon.eot?jpbuom');
-  src:  url('../fonts/menuFont/icomoon.eot?jpbuom#iefix') format('embedded-opentype'),
-    url('../fonts/menuFont/icomoon.ttf?jpbuom') format('truetype'),
-    url('../fonts/menuFont/icomoon.woff?jpbuom') format('woff'),
-    url('../fonts/menuFont/icomoon.svg?jpbuom#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+@media screen and (min-width: 1000px){
+  header{
+    height: 100px;
+    margin: 0;
+  }
+  .nav{
+    height: 90px;
+    margin: 0;
+    justify-content: space-around;
+
+  }
+  .nav-toggle{
+    display: none;
+  }
+  .nav-menu{
+    position: relative;
+    left: 0;
+    top: 0;
+    max-height: 40px;
+    background-color: none;
+    height: none;
+    flex-direction: row;
+    margin: 0;
+    width: auto;
+    overflow: inherit;
+    font-size: 30px;
+  }
+  .nav-menu li{
+    margin: 0 0;
+  }
+  .nav-menu li a{
+    margin: 20px;
+  }
+  .grilla{
+    margin-top: 160px;
+    grid-template-rows: 600px 1fr 500px;
+  }
+  .text-container{
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .text-container article{
+    grid-column: 1/2;
+  }
+  .me{
+    margin-bottom: 50px;
+  }
+  .text-container article h1{
+    font-size: 50px;
+  }
+  .text-container article p{
+    font-size: 20px;
+  }
+  .text-container .frase{
+    grid-column: 2/3;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .text-container .gifImg{
+    width: 300px;
+  }
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-menu:before {
-  content: "\e900";
-}
-
-.burger-button{
-  display: none;
-}
-
+/*
 @media screen and (min-width: 1024px){
   body{
     font-size: 35px;
@@ -120,3 +153,4 @@
     margin-top: -400px;
   }
 }
+*/
