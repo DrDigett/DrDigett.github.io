@@ -94,7 +94,7 @@ header{
 
 
 .grilla{
-  margin-top: 150px;
+  margin-top: 300px;
   display: grid;
   grid-template-rows: 600px 1fr 400px;
   justify-items: center;

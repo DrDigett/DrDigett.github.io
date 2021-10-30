@@ -4,7 +4,7 @@
   grid-gap: 100px;
   row-gap: 200px;
   width: 90%;
-  margin: 50px 10%;
+  margin: 200px 10%;
   margin-bottom: 150px;
 }
 
@@ -33,7 +33,7 @@
   .blogs-posts-container{
     grid-template-columns: 500px 500px;
     row-gap: 50px;
-    margin: 50px 4%;
+    margin: 200px 4%;
     justify-content: center;
   }
   .relato img{
