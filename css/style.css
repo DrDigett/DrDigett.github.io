@@ -125,6 +125,7 @@ header{
   gap: 120px;
   justify-items: center;
 
+
 }
 
 .text-container article{
@@ -155,11 +156,11 @@ header{
 }
 
 .btn{
-  margin-top: 50px;
+  display: block;
   background-color: var(--color-primary);
   color: var(--white-color);
-  padding: 30px;
   font-size: 100px;
+  margin: 15px;
   border-radius: 5%;
 }
 
