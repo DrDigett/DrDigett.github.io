@@ -2,10 +2,9 @@
   display: grid;
   grid-template-columns: 90%;
   grid-gap: 100px;
-  row-gap: 200px;
-  width: 90%;
-  margin: 200px 10%;
-  margin-bottom: 150px;
+  width: 100%;
+  justify-content: center;
+  margin: 250px 0px;
 }
 
 .relato{
@@ -31,17 +30,25 @@
 
 @media screen and (min-width: 1024px){
   .blogs-posts-container{
-    grid-template-columns: 500px 500px;
-    row-gap: 50px;
-    margin: 200px 4%;
+    grid-template-columns: 35% 35%;
     justify-content: center;
-  }
-  .relato img{
     width: 100%;
-    height: 20rem;
+    margin: 150px 0px;
+    grid-gap: 30px;
+    padding: 0px;
   }
-  
   .relato{
     width: 100%;
+  }
+
+  .relato a{
+    max-width: 90%;
+    font-size: 30px;
+    justify-content: center;
+  }
+
+  .relato img{
+    width: 100%;
+    height: 100%;
   }
 }
