@@ -67,6 +67,11 @@
   .btn{
     display: inline;
   }
+
+  /*Frases.html*/
+  .vertical-image img{
+    max-height: 15rem;
+  }
 }
 
 /*
