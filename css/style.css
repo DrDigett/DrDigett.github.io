@@ -171,4 +171,7 @@ header{
 footer{
   background-color: var(--color-primary);
   color: var(--white-color);
+  padding: 20px;
+  text-align: center;
 }
+
