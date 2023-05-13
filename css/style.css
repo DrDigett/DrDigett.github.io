@@ -12,7 +12,7 @@ body
   padding: 0px;
   background-color: var(--color-alternative);
   color: var(--color-secundary);
-  font-size: 50px;
+  font-size: 1rem;
   font-family: 'Roboto Mono', monospace;
 
 }
