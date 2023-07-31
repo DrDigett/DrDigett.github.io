@@ -175,3 +175,82 @@ footer{
   text-align: center;
 }
 
+.carousel {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slider {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  flex: 0 0 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.slide img {
+  width: 30rem;
+  height: 50rem;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  text-align: center;
+}
+
+.prev-button, .next-button {
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .carousel{
+    max-width: 90%;
+  }
+  .carousel-title {
+  text-align: center;
+  font-size: 3rem;
+  }
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slider {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  flex: 0 0 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  text-align: center;
+}
+
+.prev-button, .next-button {
+  padding: 5px 10px;
+}
+}

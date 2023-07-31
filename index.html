@@ -56,41 +56,63 @@
           </div>
         </section>
         <!--  HERO -->
-        <section class="text-container">
-
-          <article class="me">
-            <h1>¿Quien soy?</h1>
-            <p>
-              Soy de Peru que nacio el 2 de julio del 2005 en
-              un dia lluvioso (segun mi mamá :S).
-              Me gusta la tecnologia y los videojuegos
-              los cuales juego diario
-              tambien me gustan mucho las
-              peliculas (especialmente las de gangsters).
-              Varias personas me han dicho que soy
-              distraido pero yo pienso que es mi imaginacion
-              desbordando mi cabeza. Y esa es una de las
-              razones por las que arme esto.
-            </p>
-            <!--<img src="images/hogera.gif" alt=""/>-->
-          </article>
-          <div class="frase">
-            "La imaginacion son<br>
-            las alas del hombre"
+        <section class="carouselContainer">
+        
+          
+          <div class="carousel">
+            <h2 class="carousel-title">Carrusel 1</h2>
+            <div class="carousel-container">
+              <div class="carousel-slider slider-1">
+                <div class="slide">
+                  <a href="link1.html"><img src="images/playa-limeña.png" alt="Imagen 1"></a>
+                  <h3>Título de la Imagen 1</h3>
+                </div>
+                <div class="slide">
+                  <a href="link2.html"><img src="images/la-banderita.webp" alt="Imagen 2"></a>
+                  <h3>Título de la Imagen 2</h3>
+                </div>
+                <div class="slide">
+                  <a href="link2.html"><img src="imagen2.jpg" alt="Imagen 2"></a>
+                  <h3>Título de la Imagen 2</h3>
+                </div>
+                <div class="slide">
+                  <a href="link2.html"><img src="imagen2.jpg" alt="Imagen 2"></a>
+                  <h3>Título de la Imagen 2</h3>
+                </div>
+                <!-- Agrega aquí más slides para el primer carrusel -->
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="prev-button prev-button-1">&lt;</button>
+              <button class="next-button next-button-1">&gt;</button>
+            </div>
           </div>
-
-          <article class="razon">
-            <h1>¿Por qué creaste esto?</h1>
-            <p>
-              Quiero expresar las ideas que
-              atormentan mi cabeza. A menudo
-              me pasan y ocurren relatos que
-              me gustaria recordar. Aparte quiero mejorar en html,
-              css y javaScript.
-            </p>
-          </article>
-          <img class="gifImg" src="images/goku_black.gif" alt="">
-
+          
+          <div class="carousel">
+            <h2 class="carousel-title">Carrusel 2</h2>
+            <div class="carousel-container">
+              <div class="carousel-slider slider-2">
+                <div class="slide">
+                  <a href="link2.html"><img src="imagen2.jpg" alt="Imagen 2"></a>
+                  <h3>Título de la Imagen 2</h3>
+                </div>
+                <div class="slide">
+                  <a href="link2.html"><img src="imagen2.jpg" alt="Imagen 2"></a>
+                  <h3>Título de la Imagen 2</h3>
+                </div>
+                <div class="slide">
+                  <a href="link2.html"><img src="imagen2.jpg" alt="Imagen 2"></a>
+                  <h3>Título de la Imagen 2</h3>
+                </div>
+                <!-- Agrega aquí más slides para el segundo carrusel -->
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="prev-button prev-button-2">&lt;</button>
+              <button class="next-button next-button-2">&gt;</button>
+            </div>
+          </div>
+          
         </section>
 
 
@@ -99,6 +121,42 @@
           <a class="btn btn-index" href="/frases.html">Frases</a>
 
         </nav>
+
+      <script>
+const carousels = document.querySelectorAll('.carousel');
+
+carousels.forEach((carousel, index) => {
+  const slider = carousel.querySelector(`.slider-${index + 1}`);
+  const prevButton = carousel.querySelector(`.prev-button-${index + 1}`);
+  const nextButton = carousel.querySelector(`.next-button-${index + 1}`);
+
+  let currentIndex = 0;
+
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slideCount()) % slideCount();
+    updateCarousel();
+  });
+
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slideCount();
+    updateCarousel();
+  });
+
+  function slideCount() {
+    return slider.querySelectorAll('.slide').length;
+  }
+
+  function updateCarousel() {
+    const slideWidth = slider.querySelector('.slide').clientWidth;
+    const offset = -currentIndex * slideWidth;
+    slider.style.transform = `translateX(${offset}px)`;
+  }
+
+  updateCarousel();
+});
+
+      </script>        
+        
       </main>
 
 
