@@ -1,0 +1,165 @@
+@media screen and (min-width: 1000px){
+  header{
+    height: 100px;
+    margin: 0;
+  }
+  .nav{
+    height: 90px;
+    margin: 0;
+    justify-content: space-around;
+
+  }
+  .nav-toggle{
+    display: none;
+  }
+  .nav-menu{
+    position: relative;
+    left: 0;
+    top: 0;
+    max-height: 40px;
+    background-color: none;
+    height: none;
+    flex-direction: row;
+    margin: 0;
+    width: auto;
+    overflow: inherit;
+    font-size: 30px;
+  }
+  .nav-menu li{
+    margin: 0 0;
+  }
+  .nav-menu li a{
+    margin: 20px;
+  }
+  .grilla{
+    margin-top: 160px;
+    grid-template-rows: 600px 1fr 500px;
+  }
+  .text-container{
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .text-container article{
+    grid-column: 1/2;
+  }
+  .me{
+    margin-bottom: 50px;
+  }
+  .text-container article h1{
+    font-size: 50px;
+  }
+  .text-container article p{
+    font-size: 20px;
+  }
+  .text-container .frase{
+    grid-column: 2/3;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .text-container .gifImg{
+    width: 300px;
+  }
+
+  .btn{
+    display: inline;
+  }
+
+  /*Frases.html*/
+  .vertical-image img{
+    max-height: 15rem;
+  }
+}
+
+/*
+@media screen and (min-width: 1024px){
+  body{
+    font-size: 35px;
+  }
+
+  .btn-index{
+    margin-left: 30% ;
+  }
+  .header{
+    height: 100px;
+  }
+  .display{
+    width: 0px;
+    height: 0px;
+  }
+  .header .menu{
+    display: flex;
+    margin-left: 200px;
+    font-size: 20px;
+  }
+
+  .header-container{
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  .header-container:hover{
+    background-color: #2ECC71;
+    margin-top: 0px;
+
+    border: 0px solid #9b9b9b;
+  }
+  .header-container:hover h1{
+    margin-left: 0px;
+    color: #0B5345;
+
+  }
+
+  .header-container:hover .display{
+    display: none;
+  }
+
+  .hero{
+    margin-top:-150px;
+  }
+  .me{
+    width: 800px;
+    height: 60%;
+    margin: 0 10px;
+    margin-top: 100px;
+  }
+  .me h1{
+    margin-top: 15px;
+    margin-bottom: -20px;
+    font-size: 60px;
+  }
+
+  .me p{
+    font-size: 30px;
+  }
+  .frase{
+    margin-right: 1px;
+    float: right;
+    margin-top: -450px;
+    width: 500px;
+    font-size: 70px;
+  }
+  .razon{
+    width: 800px;
+    height: 60%;
+    margin: 0 10px;
+    margin-top: 100px;
+  }
+  .razon h1{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: -40px;
+  }
+  .razon p{
+    margin-left: -30px;
+  }
+  .gifImg{
+    float: right;
+    display: flex;
+    height: 400px;
+    margin-top: -400px;
+  }
+}
+*/

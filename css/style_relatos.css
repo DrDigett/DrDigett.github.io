@@ -1,0 +1,145 @@
+.relato_container
+{
+  margin: 0 auto;
+  margin-top: 200px;
+  display: block; /* elementos de forma horizontal */
+  max-width: 85%;
+
+}
+
+.titulo_container h1
+{
+  color: #2ECC71;
+  font-size: 6rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.titulo_container h4
+{
+  margin-top: -30px;
+  justify-content: center;
+  font-size: .7rem;
+}
+
+.image_container
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  font-size: .7rem;
+}
+.video_container{
+  margin-top: 120px;
+  justify-content: center;
+  font-size: .7rem; 
+}
+.image_container img{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.image_container video{
+  margin-top: -100px;
+  height: 100%;
+  width: 100%;
+}
+.historia_container
+{
+  justify-content: center;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.historia_container a
+{
+  color: #2ECC71;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.historia_container h3
+{
+  margin-left: 0px;
+  margin-top: -20px;
+  color: #2ECC71;
+  font-size: 20px;
+}
+
+.historia_container p{
+  margin: 40px 0;
+  color: #0B5345;
+}
+
+.inciso__container{
+  width: 90%;
+  background-color: #c0bebe;
+  padding: 5px 30px;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.inciso__container a{
+  color: #0B5345;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.inciso__container h3{
+  color: #0B5345;
+  font-weight: 900;
+}
+
+.btn-post{
+  margin: 10px 0px;
+  max-width: 20%;
+  display: flex;
+  color: #0B5345 !important;
+}
+
+.btn-post:hover{
+  color: #2ECC71 !important;
+}
+
+#disqus_thread{
+  margin-top: 15%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+
+}
+footer a{
+  color: white;
+}
+
+@media screen and (min-width: 1024px){
+  .titulo_container h1{
+    font-size: 5rem;
+  }
+  .titulo_container h4{
+    font-size: 2rem;
+  }
+  .relato_container{
+    margin-top: 140px;
+  }
+  .image_container{
+    font-size: 1.2rem;
+  }
+  .historia_container h3{
+    font-size: 2rem;
+  }
+  .historia_container{
+    font-size: 1.5rem;
+  }
+  .inciso__container{
+    width: 50%;
+    font-size: 1.5rem;
+  }
+  .inciso__container a{
+    font-size: 2rem;
+  }
+}

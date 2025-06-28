@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta= charset="UTF-8"/>
+    <link rel="icon" href="images/foto.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>
+       DigettNotes+
+    </title>
+  </head>
+    <body>
+
+      <!--- header -->
+      <nav class="fadeInDown">
+        <header>
+          <nav class="nav">
+            <h1>
+              <a href="index.html">DigettNotes+</a>
+            </h1>
+            <button class="nav-toggle" aria-label="Abrir menú">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+              <li>
+                <a href="https://www.facebook.com/DrDigett">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCBGBlRrKyfvwwYQAC4i_L-A?view_as=subscriber">Youtube</a>
+              </li>
+              <li>
+                <a href="menuR.html">Relatos</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </nav>
+      <!--- header -->
+
+      <main class="grilla">
+        <!--  HERO -->
+        <section class="hero">
+          <div class="title">
+             <h1>DtNts+</h1>
+             <p>En esta página podras ver todas mis notas mentales</p>
+          </div>
+        </section>
+        <!--  HERO -->
+
+        <nav class="fadeInUp">
+          <a class="btn btn-index" href="/menuR.html">Relatos</a>
+          <a class="btn btn-index" href="/frases.html">???????</a>
+
+        </nav>
+
+      <script>
+const carousels = document.querySelectorAll('.carousel');
+
+carousels.forEach((carousel, index) => {
+  const slider = carousel.querySelector(`.slider-${index + 1}`);
+  const prevButton = carousel.querySelector(`.prev-button-${index + 1}`);
+  const nextButton = carousel.querySelector(`.next-button-${index + 1}`);
+
+  let currentIndex = 0;
+
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slideCount()) % slideCount();
+    updateCarousel();
+  });
+
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slideCount();
+    updateCarousel();
+  });
+
+  function slideCount() {
+    return slider.querySelectorAll('.slide').length;
+  }
+
+  function updateCarousel() {
+    const slideWidth = slider.querySelector('.slide').clientWidth;
+    const offset = -currentIndex * slideWidth;
+    slider.style.transform = `translateX(${offset}px)`;
+  }
+
+  updateCarousel();
+});
+
+      </script>        
+        
+      </main>
+
+
+
+      <footer>
+       @dr.gonas❤️ <p>&copy; 2022 Dr. Digett's Blog</p>
+      </footer>
+
+      <script src="./header.js"></script>
+
+    </body>
+</html>

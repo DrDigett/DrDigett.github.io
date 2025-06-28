@@ -1,0 +1,260 @@
+:root{
+  --color-primary: #2ecc71;
+  --color-secundary:#0b5345;
+  --color-alternative: #dbdbdb;
+  --white-color: #FFFFFF;
+}
+* {
+  margin: 0px;
+}
+body
+{
+  padding: 0px;
+  background-color: var(--color-alternative);
+  color: var(--color-secundary);
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+
+}
+a{
+  cursor: pointer;
+
+}
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+
+header{
+  background-color: var(--color-primary);
+  position: fixed;
+  width: 100%;
+  height: 180px;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.nav h1 a{
+  color: var(--white-color);
+  margin: 0px;
+  text-decoration: none;
+}
+
+.nav-toggle{
+  color: var(--white-color);
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 50px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+}
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  background-color: var(--color-primary);
+  position: fixed;
+  left: 100%;
+  transition: left 0.3s;
+  top: 160px;
+  width: 100%;
+  height: calc(100%- 60px);
+  overflow-y: auto;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.nav ul li{
+  margin: 50px 0;
+}
+
+.nav ul li a{
+  color: var(--color-secundary);
+  text-decoration: none;
+}
+
+.nav ul li a:hover{
+  color: var(--white-color);
+}
+
+.nav-menu_visible{
+  left: 0;
+}
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+/*-------HEADER----------------------------*/
+
+
+.grilla{
+  margin-top: 300px;
+  display: grid;
+  grid-template-rows: 600px 1fr auto;
+  min-height: 100vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero{
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 210px;
+}
+.hero .title{
+  text-align: center;
+}
+.hero .title h1{
+  font-size: 280px;
+  color: #2ECC71;
+  font-family: 'PT Serif', serif;
+  margin-bottom: 0px;
+}
+.hero .title p{
+  font-size: 43px;
+}
+.text-container{
+  display: grid;
+  grid-row: 2/3;
+  gap: 120px;
+  justify-items: center;
+
+
+}
+
+.text-container article{
+  background-color: var(--color-primary);
+  max-width: 85%;
+  border-radius: 2%;
+  padding: 30px;
+}
+
+.text-container article h1{
+  color: var(--white-color);
+  font-family: 'PT Serif', serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+.text-container article p{
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.text-container .frase{
+  color: #0B5345;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 90px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.btn{
+  display: block;
+  background-color: var(--color-primary);
+  color: var(--white-color);
+  font-size: 100px;
+  margin: 15px;
+  border-radius: 5%;
+}
+
+.btn:hover{
+  background-color: var(--color-secundary);
+}
+
+footer{
+  background-color: var(--color-primary);
+  color: var(--white-color);
+  padding: 20px;
+  text-align: center;
+
+}
+
+.carousel {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slider {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  flex: 0 0 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.slide img {
+  width: 30rem;
+  height: 50rem;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  text-align: center;
+}
+
+.prev-button, .next-button {
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .carousel{
+    max-width: 90%;
+  }
+  .carousel-title {
+  text-align: center;
+  font-size: 3rem;
+  }
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slider {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  flex: 0 0 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  text-align: center;
+}
+
+.prev-button, .next-button {
+  padding: 5px 10px;
+}
+
+
+}
