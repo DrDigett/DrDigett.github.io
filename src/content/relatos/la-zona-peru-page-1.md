@@ -1,0 +1,142 @@
+---
+title: "La Zona, Perú #1"
+date: "26/05/21"
+image: "/images/la-zona-peru-1.jpg"
+---
+-Entonces la mire y le dije "Claro que ya no voy a volver a entrar ahí".
+Luego ella se voltio, me miro y me tiro una cachetada-.
+
+-Jajaja, que imbécil Thomas-Respondi con una risa.
+
+-Ey Daniel, de todas maneras no es mi culpa-Respondio Thomas con un empujoncito.
+
+Misión: 1
+
+Lugar: Sur de Áncash
+
+Día: 25/05/2119
+
+Hora: 6:30pm
+
+Habíamos dejado la camioneta en la entrada de un pueblo ya que la gasolina
+se nos estaba acabando y necesitábamos mas para poder ir a nuestro
+siguiente objetivo.
+
+Thomas, Josue, Jorge y yo (Daniel) nos encargaríamos de buscar los
+recursos que necesitabamos. Mientras que Alvaro, Eduardo, Miguel y Alexis protegerán
+la zona con el carro donde habiamos llegado a este lugar mientras planificarian una
+ruta para evitar los monstruos y anomalías de La Zona.
+
+Esta misión es la primera en la que salgo completamente de Lima. Estoy nervioso... Ja ahora que lo
+pienso, escribir "estoy nervioso" creo que es algo estúpido, es algo que ya es obvio. Por que quien no lo estaría
+antes de hacer la acción que tal vez sea la peor que se le puede hacer a otro ser humano, terminar
+con su existencia. Quienes fueron los locos que aprobaron la misión para enviar a unos jóvenes de apenas
+18 años para matar otros "jóvenes". Pues supongo que así es la vida militar, yo no lo soy (completamente) por si
+el que vaya a leer esto se lo preguntaba. Mi equipo y yo solo nos seleccionaron de manera obligatoria
+para que exploraran la condición de los alrededores, somos "Exploradores". Un poco de instrucciones por acá,
+un poco de estrategias por haya, un poco de comida aquí y pal' frente a estos chicos que tal vez sus mochilas
+tengan más años que ellos, que no hay suficientes recursos para mantenerlos aquí.
+
+Aunque supuestamente nuestros superiores nos dijeron que las armas que nos estaban dando eran para la defensa de
+ataques causados por bestias y si encontrábamos sobrevivientes (lo cual era muy probable en ciertos lugares) teníamos
+la orden de no atacarles y maximo intimidarles con las armas que tenemos, pero carajo a quien no se asustaría si ve a
+unos tipos armados que no son de la zona acercándose a su hogar y si descubren que somos de Lima no creo que estén muy
+contentos por lo que hicieron los gobernantes con los bunkers.
+
+Pues la tarde se fue y ya estaba oscureciendo, no habíamos encontrado ni una gota de gasolina
+o un paquete de comida. Solo basura, papeles y cadáveres; los cuales
+no parecían recientes, ya se veían bastante descompuestos. Habian varios
+cadavares entre escombros o malesa los cuales parece que fueron causados
+por la radiación, pero otros.. otros Tenían mordidas profundas y heridas de balas por todo el
+cuerpo. ¿Estas personas como llegaron a sobrevivir a tanta radiación? Nosotros teniamos que tomar como 3
+pastillas de yodo cada par de horas para cuidarnos de estos altos niveles de radiacion que habian por ese lugar y no
+teniamos informacion de algun lugar seguro o punto muerto donde la gente pudo haberse quedado.
+
+El sol ya se oculto y la luna era la única que nos alumbraba en una calle
+totalmente destrozada donde la naturaleza se había apropiado de ella. La mala
+hierba llegaba hasta mis caderas y apenas podía ver mis pies por lo espesa
+que era.
+
+-¿Escucharon eso?- Pregunto Josue.
+
+-Lo escuche- Respondió Thomas mientras le quitaba el seguro a su arma y apuntaba
+hacia unos arboles.
+
+-¿Que, que paso?-pregunto Jorge.
+
+-Un sonido de que algo atravesó un arbusto y quebró una rama-Respondió
+Thomas.
+
+Yo no lo había escuchado pero volvió a sonar y a la derecha de nosotros.
+La luz de la luna no enfocaba esa zona y los arboles tampoco nos
+ayudaban.
+
+-Jorge, prende la radio y comunícate con Edu para ver si son ellos-Dijo
+Josue.
+
+-Aquí Jorge, ¿se movieron de la camioneta?. Cambio-.
+
+Se empezaron a escuchar mas pasos y ahora en nuestro lado izquierdo.
+
+-Carajo. Aquí Jorge, ¿se movieron de la camioneta?. Cambio-.
+
+-Aquí Eduardo, seguimos en el mismo punto. Cambio-.
+
+-Mierda. Atentos, algo o alguien anda por acá- Susurro Josue.
+
+Todos sacamos nuestras armas y empezamos a vigilar el perímetro
+mientras se escuchaban mas y mas pasos con ligeros gruñidos.
+
+Las pisadas no eran de humano porque se escuchaban ligeras y eran muy
+rápidas. Estaba sudando, no saber de donde te van atacar hacia de que
+mis manos temblaran.
+
+Hasta que lo vi, era un perro y no era para nada normal, era mas
+delgado de lo común, con algunos órganos y huesos expuestos al
+aire libre, tenia un ojo colgando y pude llegar a ver  que sus
+colmillos eran mucho mas grandes de lo normal. La radiación de
+La Zona había alterado a estos animales.
+
+La bestia empezó a correr hacia la espalda de mi compañero Jorge
+queriéndole morder. Yo lo empece a seguir con la mirilla de mi
+M-16, cuando por fin pude apuntarle bien jale del gatillo y ahí me di
+cuenta que tenia el seguro puesto, no conseguí disparar al perro y lamentablemente
+ya se encontraba a pocos metros de Jorge.
+
+Jorge se dio cuenta que algo lo estaba siguiendo, solto la radio, voltio, apunto con su escopeta y
+al intentar disparar el perro mordió su brazo izquierdo.
+
+-¡Ahhh, mi brazo, quitenmelo!- Dio un grito.
+
+-¡Jorge!. Quieto no te muevas- Grito Josue mientras le disparaba al
+perro con su m16 con silenciador.
+
+Al matar al perro Jorge, lo quito de su cuerpo, se sento al piso y empezo a presionar
+la herida que le dejaron.
+
+-¡Carajo mi brazo! Necesito las malditas vendas-Dijo Jorge mientras
+se quitaba su equipamiento.
+
+-No no no, esto es mi culpa lo tenia en la mira pero no quite el seguro- Hable.
+
+-Mierda Daniel, sentia como me querian arrancar el puto brazo- Me respondió Jorge mientras Josue lo vendaba.
+
+-Te dare un poco de morfina Jorge,  ponte  tranquilo- Dijo Thomas.
+
+-¡Como quieres que este tranquilo, sale un chisgete de sangre!- Jorge respondio con una voz amargada.
+
+Se empezaron a escuchar aullidos y ladridos de mas perros, parecian
+como veinte , solo conseguí ver a diez a lo lejos, pero se oían mas
+entre los arboles. Nos teníamos que ir lo mas rápido posible, los perros
+nos triplicaban. Jorge no pudo terminar de vendarse y tampoco pudo
+recoger sus cosas, solo llego a agarrar su escopeta para luego empezar
+a correr apretando la venda de su brazo.
+
+No sabíamos a donde ir, la mayoría de casas estaban en muy mal estado.
+Hasta que llegamos a ver una estructura grande, parecía ser una especie
+de comisaria; se veía bastante vieja pero por lo menos contaba con
+puertas y se veían resistentes.
+
+Al entrar cerramos la puerta y bajamos las rejas que había. Afuera de
+la comisaria se escucharon varios ladridos pero por suerte solo eso
+ya que esas cosas no se animaron a penetrar la entrada.

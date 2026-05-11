@@ -1,0 +1,41 @@
+<header class="header">
+  <nav class="nav">
+    <h1 class="nav-brand">
+      <a href="/">DigettNotes+</a>
+    </h1>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/relatos/" aria-current={Astro.url.pathname.startsWith('/relatos') ? 'page' : undefined}>Relatos</a></li>
+      <li><a href="/notas/" aria-current={Astro.url.pathname.startsWith('/notas') ? 'page' : undefined}>Notas</a></li>
+      <li><a href="https://www.facebook.com/DrDigett" rel="noopener noreferrer">Facebook</a></li>
+      <li><a href="https://www.youtube.com/channel/UCBGBlRrKyfvwwYQAC4i_L-A?view_as=subscriber" rel="noopener noreferrer">YouTube</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const menu = document.getElementById('navMenu');
+
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => {
+      const isOpen = menu.classList.toggle('nav-menu--open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
+      toggle.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+        menu.classList.remove('nav-menu--open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Abrir menú');
+      }
+    });
+  }
+</script>

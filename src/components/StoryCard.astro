@@ -1,0 +1,22 @@
+---
+export interface Props {
+  title: string;
+  date: string;
+  slug: string;
+  image?: string;
+  description?: string;
+}
+
+const { title, date, slug, image, description } = Astro.props;
+---
+
+<article class="story-card fade-in">
+  {image && <img class="story-card-image" src={image} alt={`Ir a: ${title}`} loading="lazy" />}
+  <div class="story-card-body">
+    <p class="story-card-date">{date}</p>
+    <h2 class="story-card-title">
+      <a href={`/relatos/${slug}/`}>{title}</a>
+    </h2>
+    {description && <p class="story-card-description">{description}</p>}
+  </div>
+</article>

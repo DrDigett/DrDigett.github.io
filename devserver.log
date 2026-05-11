@@ -1,0 +1,17 @@
+
+> drdigett.github.io@2.0.0 dev
+> astro dev
+
+19:25:11 [types] Generated 2ms
+19:25:11 [vite] Re-optimizing dependencies because vite config has changed
+
+ astro  v4.16.19 ready in 469 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+
+ update  ▶ New version of Astro available: 6.3.1
+  Run npx @astrojs/upgrade to update
+
+19:25:12 watching for file changes...

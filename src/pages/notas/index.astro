@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const notas = await getCollection('notas', ({ data }) => !data.draft);
+const sorted = notas.sort((a, b) => {
+  const dateA = a.data.date || '';
+  const dateB = b.data.date || '';
+  return dateB.localeCompare(dateA);
+});
+
+interface RenderedNota {
+  Content: any;
+  date?: string;
+}
+
+const rendered: RenderedNota[] = [];
+for (const entry of sorted) {
+  const { Content } = await entry.render();
+  rendered.push({ Content, date: entry.data.date });
+}
+---
+
+<BaseLayout title="Notas" description="Notas, frases y pensamientos cortos de Dr. Digett">
+  <div class="page-container page-container--narrow">
+    <h1 style="font-family: var(--font-heading); font-size: 2rem; color: var(--color-primary); margin-bottom: 32px;">Notas</h1>
+    <div class="notas-list">
+      {rendered.map(({ Content, date }) => (
+        <article class="nota-item fade-in">
+          <Content />
+          {date && <p class="nota-date">{date}</p>}
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

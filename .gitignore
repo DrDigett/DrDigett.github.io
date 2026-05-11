@@ -1,3 +1,4 @@
-# Archivos y directorios generales a ignorar
 node_modules/
 dist/
+.DS_Store
+*.local

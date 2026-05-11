@@ -1,0 +1,48 @@
+---
+title: "Te miro con odio y amor 2021"
+date: "7-10-21"
+image: "/images/odio-y-amor-2021.jpg"
+---
+Hola, ya llevaba tiempo en el cual no escribo una nota mental y creo que es el momento perfecto, noche fría, solitaria
+y silenciosa, con el único ruido de mis dedos chocando con las teclas y las canciones de mi playlist.
+
+2021, qué añito ahh. Después de la inesperada llegada de una pandemia, puso al mundo literalmente de cabeza. Todos
+se mudaron a internet. Bueno esto solo por la mitad y comienzos del 2020, ahora ya se podría decir que se puede salir,
+obviamente con proteccion y todo eso, pero por lo menos podemos estirar las piernas. Luego de la llegada de 2020 de muchos cambios
+para todos, para unos los meses perfectos, para otros un completo desastre, pero bueno.
+
+Llegó 2021 por lo menos para mi
+fue una odisea en todo sentido por cierto nunca leí "Odisea" pero parece ser interesante y me gustaria tener un perro llamado
+Argos.
+
+Cambie de grupo social. El tiempo pasa chicos... Con las personas que hablaba mayormente casi todo el dia los fines
+de semana antes de covid y con las que me divertía mientras reía frente a una pantalla ahora tienen deberes
+como universidad, instituto, estudios o  cosas asi(Y no hablo los
+del colegio solo hablaba con 4 personas ahi, si no los de Discord y demás)Ja, tampoco creo que sea solo culpa de eso
+si no de bueno... Cosas que te hacen dejar de hablarles e igual siguen siendo amigos. Volví a hablar con amistades
+de mi niñez y creo que este es mi nuevo círculo social.
+
+También aprendí a programar en mis tiempos libres, dandome una perspectiva de lo que era este mundo tan pero tan
+inmenso y que no para de crecer.
+
+Llevaba viendo el bitcoin desde que tengo 9 años pero quién le iba a dar una tarjeta de debito a un niño,AAAAA DIGETT,
+bueno en ese tiempo VEGITO747 (como me da verguenza ese nickname xdxd).Ahora
+tendría algo de dinero para comprarme una casa porque CARAJO ahora están a 54k dólares cada bitcoin.
+¿Qué le diría a mi yo de hace 7 años?
+
+Unos le dirían que aprecie a las demás personas, otros que aproveche esas oportunidades del futuro y unos cuantos pocos
+le diria que no confien en los demas, pero coño yo le diria que con todo el puto dinero que tenia guardado lo gaste en
+bitcoin que para el 2021 va ser un maldito crack. Criptomonedas ¿Una burbuja? algo probable, el tiempo lo dira.
+
+También en el 2021 conci mis orígenes, bueno "mis orígenes", es de mi abuelo pero técnicamente sí, fue un bonito lugar
+muchas experiencias, estuvo chevere (esa palabra "chevere", se que estas leyendo esto y si, me acabo de acordar de eso)
+y tengo un clip de digett cortando una lima en el aire. Algo del recuerdo.
+
+Ahora tantas canciones tienen significado... Ahora ya sé porque la música es arte. Aunque es totalmente subjetivo lo
+que es y no es arte porque a final de cuenta arte es todo lo que te haga sentir algo. Y carajo yo siento todos mis
+sentimientos con Almohada de Jose Jose pero tal vez para otros solo es una canción más de miles. aunque sea una idea vaga
+de lo que es arte "algo que te haga sentir algo", es lo más "claro". Volviendo al tema, tantas canciones pero bueno estas
+últimas semanas o esta última semana se quedan con estas canciones El tiempo de Afrodisiaco (me recordó a ese año antes del covid),
+ruinas de c.r.o, Virgen de los adolescentes y uno más de yapa Indiana de hombres G. Este año por lo menos creo que tendría tal vez como
+20 canciones o 31 y la mayoría de amor... Hay el amor, el amor, el amor lo puede todo dicen, pero no confundirlo con romance el romance
+literalmente mata el amor. Entonces para decirlo bien, serían algo de 20 o 31 canciones con la mayoría de romance.

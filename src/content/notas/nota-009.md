@@ -1,0 +1,5 @@
+---
+title: "(part.1)En mi mano, reposa un vaso de \"pablito\" con Coca-Col"
+---
+
+(part.1)En mi mano, reposa un vaso de "pablito" con Coca-Cola y un puchito que extraje de una de las mochilas diseminadas que encontré por ahí mientras avanzaba la noche. Tomando de rato en rato y golpeando de otro rato en rato, me sumergía en la penumbra del jolgorio. La noche, las estrellas, la música, el frío, el frío, ese gélido aliento que se disipaba entre la bulliciosa multitud apenas rozaba mi piel. En ese instante, en esa calada del cigarro, en ese momento donde me sentí ajenado al sitio, me cuestiono mi presencia aquí. No sé que hago aquí. No sé porqué estoy tomando o porqué estoy fumando o porque estoy pensando. Quiero mentirme justificando mi presencia dictando: Estoy acompañado a Omar y Jefry vendiendo panchos en la verbena. Pero en verdad todo esto es una puta farsa.

@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description, image } = Astro.props;
+const siteTitle = title === 'DigettNotes+'
+  ? 'DigettNotes+ - Notas mentales y relatos'
+  : `${title} | DigettNotes+`;
+---
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description || 'DigettNotes+ - Notas mentales y relatos de Dr. Digett'} />
+
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={description || 'Blog personal de relatos y notas'} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <link rel="canonical" href={Astro.url} />
+    {image && <meta property="og:image" content={new URL(image, Astro.url).href} />}
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={siteTitle} />
+    <meta name="twitter:description" content={description || 'Blog personal de relatos y notas'} />
+
+    <link rel="icon" href="/images/foto.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.disqus.com https://*.disquscdn.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://*.disqus.com; connect-src 'self' https://*.disqus.com https://*.disquscdn.com; img-src 'self' data: https://i.imgur.com https://*.disqus.com https://*.disquscdn.com; media-src 'self'" />
+
+    <title>{siteTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
