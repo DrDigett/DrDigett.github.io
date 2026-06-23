@@ -1,7 +1,7 @@
 ---
 title: "DOOM 1 es arte… DOOM 2 es filosofía"
 date: "10-08-25"
-img: "https://upload.wikimedia.org/wikipedia/commons/7/70/Eug%C3%A8ne_Delacroix_-_The_Barque_of_Dante.jpg"
+image: "https://i.imgur.com/hGrihZb.jpeg"
 ---
 El primer juego de la saga DOOM ha envejecido sorprendentemente bien. De hecho, los 32 años que han pasado desde su lanzamiento apenas se sienten al volver a jugarlo hoy. Con los títulos clásicos suele ocurrir una de dos cosas:
 
