@@ -1,7 +1,7 @@
 ---
 title: "La toma del software: El tecno-obrero"
 date: "19-03-25"
-image: "https://i.imgur.com/PNOQWhA.png"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Adolph_Menzel_-_Eisenwalzwerk_-_Google_Art_Project.jpg/1920px-Adolph_Menzel_-_Eisenwalzwerk_-_Google_Art_Project.jpg?_=20110216074947" #"https://i.imgur.com/PNOQWhA.png"
 ---
 La sombra de hace ochenta años en la que se vislumbro la importancia de la mano de obra calificada –como científicos, ingenieros, licenciados, doctores, etc.- vuelve a aparecer. Hay que recordar aquellos años cercanos a 1942 llenos de barbarie, en los que reinaba el nacionalismo, el autoritarismo y la avaricia sin límites. En donde un 13 de agosto un grupo de científicos empezaron a utilizar doscientos años de física, decenas de siglos en matemáticas y miles de años de ingenio humano, para solo resolver un dilema: ¿cómo optimizar, como nunca antes, la masacre?
 

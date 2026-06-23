@@ -108,6 +108,36 @@ img {
   padding: 0 24px;
 }
 
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-relatos {
+  color: var(--color-secondary);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  transition: background var(--transition), color var(--transition);
+  text-decoration: none;
+}
+
+.nav-relatos:hover,
+.nav-relatos:focus-visible {
+  color: white;
+  background-color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
 .nav-brand {
   font-family: var(--font-heading);
   font-size: 1.4rem;
@@ -366,37 +396,7 @@ img {
   font-size: 0.9rem;
 }
 
-/* --- Notas (frases) page --- */
-.notas-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
 
-.nota-item {
-  background: var(--color-bg-card);
-  border-radius: var(--radius);
-  padding: 24px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-}
-
-.nota-item p {
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.nota-item .nota-date {
-  font-size: 0.78rem;
-  color: var(--color-text-muted);
-  margin-top: 8px;
-}
-
-.nota-item img,
-.nota-item video,
-.nota-item iframe {
-  margin-top: 12px;
-  border-radius: var(--radius);
-}
 
 /* --- Animations --- */
 .fade-in {

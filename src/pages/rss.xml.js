@@ -3,11 +3,19 @@ import { getCollection } from 'astro:content';
 
 export async function GET(context) {
   const relatos = await getCollection('relatos', ({ data }) => !data.draft);
-  const sorted = relatos.sort((a, b) => {
+  const articulos = await getCollection('articulos', ({ data }) => !data.draft);
+
+  const all = [...relatos, ...articulos];
+  const sorted = all.sort((a, b) => {
     const dateA = a.data.date || '0';
     const dateB = b.data.date || '0';
     return dateB.localeCompare(dateA);
   });
+
+  function linkFor(entry) {
+    if (entry.collection === 'relatos') return `/relatos/${entry.slug}/`;
+    return `/articulos/${entry.slug}/`;
+  }
 
   const items = sorted
     .filter((entry) => {
@@ -26,13 +34,13 @@ export async function GET(context) {
         title: entry.data.title,
         pubDate: new Date(`${y}-${parts[1]}-${parts[0]}`),
         description: entry.data.description || '',
-        link: `/relatos/${entry.slug}/`,
+        link: linkFor(entry),
       };
     });
 
   return rss({
     title: 'DigettNotes+',
-    description: 'Notas mentales y relatos de Dr. Digett',
+    description: 'Artículos y relatos de Dr. Digett',
     site: context.site,
     items: items,
     customData: '<language>es-pe</language>',

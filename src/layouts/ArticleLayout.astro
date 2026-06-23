@@ -1,0 +1,51 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+export interface Props {
+  entry: CollectionEntry<'articulos'>;
+}
+
+const { entry } = Astro.props;
+const { title, date, image, description } = entry.data;
+const { Content } = await entry.render();
+const slug = entry.slug;
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <div class="page-container page-container--narrow">
+    <article>
+      <header class="story-header">
+        <h1 class="story-title">{title}</h1>
+        <p class="story-meta">{date}</p>
+      </header>
+
+      {image && <img class="story-image" src={image} alt={`Ilustración para: ${title}`} />}
+
+      <div class="story-content">
+        <Content />
+      </div>
+    </article>
+
+    <nav class="story-nav" aria-label="Volver a artículos">
+      <a href="/articulos/">&larr; Todos los artículos</a>
+    </nav>
+
+    <div id="disqus_thread"></div>
+    <noscript>Por favor, habilita JavaScript para ver los <a href="https://disqus.com/?ref_noscript">comentarios</a>.</noscript>
+  </div>
+</BaseLayout>
+
+<script define:vars={{ slug }} is:inline>
+  var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = slug;
+  };
+
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://drdigett-comentarios.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>

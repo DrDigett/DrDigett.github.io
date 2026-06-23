@@ -5,9 +5,10 @@ export interface Props {
   slug: string;
   image?: string;
   description?: string;
+  basePath?: string;
 }
 
-const { title, date, slug, image, description } = Astro.props;
+const { title, date, slug, image, description, basePath = '/relatos/' } = Astro.props;
 ---
 
 <article class="story-card fade-in">
@@ -15,7 +16,7 @@ const { title, date, slug, image, description } = Astro.props;
   <div class="story-card-body">
     <p class="story-card-date">{date}</p>
     <h2 class="story-card-title">
-      <a href={`/relatos/${slug}/`}>{title}</a>
+      <a href={`${basePath}${slug}/`}>{title}</a>
     </h2>
     {description && <p class="story-card-description">{description}</p>}
   </div>

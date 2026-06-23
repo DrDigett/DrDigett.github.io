@@ -150,450 +150,37 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"notas": {
-"nota-001.md": {
-	id: "nota-001.md";
-  slug: "nota-001";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-002.md": {
-	id: "nota-002.md";
-  slug: "nota-002";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-003.md": {
-	id: "nota-003.md";
-  slug: "nota-003";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-004.md": {
-	id: "nota-004.md";
-  slug: "nota-004";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-005.md": {
-	id: "nota-005.md";
-  slug: "nota-005";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-006.md": {
-	id: "nota-006.md";
-  slug: "nota-006";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-007.md": {
-	id: "nota-007.md";
-  slug: "nota-007";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-008.md": {
-	id: "nota-008.md";
-  slug: "nota-008";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-009.md": {
-	id: "nota-009.md";
-  slug: "nota-009";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-010.md": {
-	id: "nota-010.md";
-  slug: "nota-010";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-011.md": {
-	id: "nota-011.md";
-  slug: "nota-011";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-012.md": {
-	id: "nota-012.md";
-  slug: "nota-012";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-013.md": {
-	id: "nota-013.md";
-  slug: "nota-013";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-014.md": {
-	id: "nota-014.md";
-  slug: "nota-014";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-015.md": {
-	id: "nota-015.md";
-  slug: "nota-015";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-016.md": {
-	id: "nota-016.md";
-  slug: "nota-016";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-017.md": {
-	id: "nota-017.md";
-  slug: "nota-017";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-018.md": {
-	id: "nota-018.md";
-  slug: "nota-018";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-019.md": {
-	id: "nota-019.md";
-  slug: "nota-019";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-020.md": {
-	id: "nota-020.md";
-  slug: "nota-020";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-021.md": {
-	id: "nota-021.md";
-  slug: "nota-021";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-022.md": {
-	id: "nota-022.md";
-  slug: "nota-022";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-023.md": {
-	id: "nota-023.md";
-  slug: "nota-023";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-024.md": {
-	id: "nota-024.md";
-  slug: "nota-024";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-025.md": {
-	id: "nota-025.md";
-  slug: "nota-025";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-026.md": {
-	id: "nota-026.md";
-  slug: "nota-026";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-027.md": {
-	id: "nota-027.md";
-  slug: "nota-027";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-028.md": {
-	id: "nota-028.md";
-  slug: "nota-028";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-029.md": {
-	id: "nota-029.md";
-  slug: "nota-029";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-030.md": {
-	id: "nota-030.md";
-  slug: "nota-030";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-031.md": {
-	id: "nota-031.md";
-  slug: "nota-031";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-032.md": {
-	id: "nota-032.md";
-  slug: "nota-032";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-033.md": {
-	id: "nota-033.md";
-  slug: "nota-033";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-034.md": {
-	id: "nota-034.md";
-  slug: "nota-034";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-035.md": {
-	id: "nota-035.md";
-  slug: "nota-035";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-036.md": {
-	id: "nota-036.md";
-  slug: "nota-036";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-037.md": {
-	id: "nota-037.md";
-  slug: "nota-037";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-038.md": {
-	id: "nota-038.md";
-  slug: "nota-038";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-039.md": {
-	id: "nota-039.md";
-  slug: "nota-039";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-040.md": {
-	id: "nota-040.md";
-  slug: "nota-040";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-041.md": {
-	id: "nota-041.md";
-  slug: "nota-041";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-042.md": {
-	id: "nota-042.md";
-  slug: "nota-042";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-043.md": {
-	id: "nota-043.md";
-  slug: "nota-043";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-044.md": {
-	id: "nota-044.md";
-  slug: "nota-044";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-045.md": {
-	id: "nota-045.md";
-  slug: "nota-045";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-046.md": {
-	id: "nota-046.md";
-  slug: "nota-046";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-047.md": {
-	id: "nota-047.md";
-  slug: "nota-047";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-048.md": {
-	id: "nota-048.md";
-  slug: "nota-048";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-049.md": {
-	id: "nota-049.md";
-  slug: "nota-049";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-050.md": {
-	id: "nota-050.md";
-  slug: "nota-050";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-051.md": {
-	id: "nota-051.md";
-  slug: "nota-051";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-052.md": {
-	id: "nota-052.md";
-  slug: "nota-052";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-053.md": {
-	id: "nota-053.md";
-  slug: "nota-053";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-054.md": {
-	id: "nota-054.md";
-  slug: "nota-054";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-055.md": {
-	id: "nota-055.md";
-  slug: "nota-055";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-056.md": {
-	id: "nota-056.md";
-  slug: "nota-056";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-057.md": {
-	id: "nota-057.md";
-  slug: "nota-057";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-058.md": {
-	id: "nota-058.md";
-  slug: "nota-058";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-059.md": {
-	id: "nota-059.md";
-  slug: "nota-059";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-060.md": {
-	id: "nota-060.md";
-  slug: "nota-060";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-061.md": {
-	id: "nota-061.md";
-  slug: "nota-061";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-"nota-062.md": {
-	id: "nota-062.md";
-  slug: "nota-062";
-  body: string;
-  collection: "notas";
-  data: InferEntrySchema<"notas">
-} & { render(): Render[".md"] };
-};
-"relatos": {
+		"articulos": {
 "Dark-souls-y.md": {
 	id: "Dark-souls-y.md";
   slug: "dark-souls-y";
   body: string;
-  collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
 } & { render(): Render[".md"] };
+"La-toma-del-software-el-tecno-obrero.md": {
+	id: "La-toma-del-software-el-tecno-obrero.md";
+  slug: "la-toma-del-software-el-tecno-obrero";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
+"Ser-razonables.md": {
+	id: "Ser-razonables.md";
+  slug: "ser-razonables";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
+"doom-y-doom-2.md": {
+	id: "doom-y-doom-2.md";
+  slug: "doom-y-doom-2";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
+};
+"relatos": {
 "El-012-sobre-una-medida-de-lucha.md": {
 	id: "El-012-sobre-una-medida-de-lucha.md";
   slug: "el-012-sobre-una-medida-de-lucha";
@@ -611,13 +198,6 @@ declare module 'astro:content' {
 "La-Banderita.md": {
 	id: "La-Banderita.md";
   slug: "la-banderita";
-  body: string;
-  collection: "relatos";
-  data: InferEntrySchema<"relatos">
-} & { render(): Render[".md"] };
-"La-toma-del-software-el-tecno-obrero.md": {
-	id: "La-toma-del-software-el-tecno-obrero.md";
-  slug: "la-toma-del-software-el-tecno-obrero";
   body: string;
   collection: "relatos";
   data: InferEntrySchema<"relatos">
@@ -660,13 +240,6 @@ declare module 'astro:content' {
 "diogenes-el-perro.md": {
 	id: "diogenes-el-perro.md";
   slug: "diogenes-el-perro";
-  body: string;
-  collection: "relatos";
-  data: InferEntrySchema<"relatos">
-} & { render(): Render[".md"] };
-"doom-y-doom-2.md": {
-	id: "doom-y-doom-2.md";
-  slug: "doom-y-doom-2";
   body: string;
   collection: "relatos";
   data: InferEntrySchema<"relatos">

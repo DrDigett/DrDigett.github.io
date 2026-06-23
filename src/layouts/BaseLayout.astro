@@ -11,7 +11,7 @@ export interface Props {
 
 const { title, description, image } = Astro.props;
 const siteTitle = title === 'DigettNotes+'
-  ? 'DigettNotes+ - Notas mentales y relatos'
+  ? 'DigettNotes+ - Artículos y relatos'
   : `${title} | DigettNotes+`;
 ---
 
@@ -20,10 +20,10 @@ const siteTitle = title === 'DigettNotes+'
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description || 'DigettNotes+ - Notas mentales y relatos de Dr. Digett'} />
+    <meta name="description" content={description || 'DigettNotes+ - Artículos y relatos de Dr. Digett'} />
 
     <meta property="og:title" content={siteTitle} />
-    <meta property="og:description" content={description || 'Blog personal de relatos y notas'} />
+    <meta property="og:description" content={description || 'Blog personal de relatos y artículos'} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />
     <link rel="canonical" href={Astro.url} />
@@ -31,7 +31,7 @@ const siteTitle = title === 'DigettNotes+'
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={siteTitle} />
-    <meta name="twitter:description" content={description || 'Blog personal de relatos y notas'} />
+    <meta name="twitter:description" content={description || 'Blog personal de relatos y artículos'} />
 
     <link rel="icon" href="/images/foto.png" />
 

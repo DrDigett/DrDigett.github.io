@@ -1,5 +1,5 @@
 ---
-title: "Nos siuen pegando abajo"
+title: "Nos siguen pegando abajo"
 date: "27-11-2021"
 image: "/images/nos-siguen-pegando-abajo.jpg"
 ---

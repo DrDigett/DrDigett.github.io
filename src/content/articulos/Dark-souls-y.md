@@ -1,6 +1,8 @@
 ---
 title: "Más allá del idealismo gamer: Dark Souls y la verdad materialista"
 date: "09-09-25"
+image: "/images/nos-siguen-pegando-abajo.jpg"
+
 ---
 Hace unos días terminé la historia principal de Dark Souls 3 y, con el, cerré mi recorrido por toda la saga Souls, un viaje que comencé hace ya cinco años. No hay mucho por decir sobre esta entrega que no se haya mencionado antes, pero quiero compartirles mi pequeña perspectiva, la de un amante de los videojuegos, con la esperanza de que mi visión les resulte, al menos, un poco única.
 

@@ -1,6 +1,7 @@
 ---
 title: "Ser razonables no es ser imparciales"
 date: "10-06-2026"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Piet_Mondriaan%2C_1921_-_Composition_en_rouge%2C_jaune%2C_bleu_et_noir.jpg/1280px-Piet_Mondriaan%2C_1921_-_Composition_en_rouge%2C_jaune%2C_bleu_et_noir.jpg"
 ---
 
 Muchos recordarán la llegada del exalcalde Rafael López Aliaga a Villa María del Triunfo en octubre de 2025. La mayoría rememorará el momento por el "atentado" (así, entre comillas) que supuestamente sufrió el en ese momento alcalde, mientras que otros lo recordaremos por la inauguración de una vía colectora que nunca se llegó a construir, ni siquiera a empezar.
