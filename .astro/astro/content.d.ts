@@ -156,28 +156,35 @@ declare module 'astro:content' {
   slug: "dark-souls-y";
   body: string;
   collection: "articulos";
-  data: InferEntrySchema<"articulos">
+  data: any
 } & { render(): Render[".md"] };
 "La-toma-del-software-el-tecno-obrero.md": {
 	id: "La-toma-del-software-el-tecno-obrero.md";
   slug: "la-toma-del-software-el-tecno-obrero";
   body: string;
   collection: "articulos";
-  data: InferEntrySchema<"articulos">
+  data: any
 } & { render(): Render[".md"] };
 "Ser-razonables.md": {
 	id: "Ser-razonables.md";
   slug: "ser-razonables";
   body: string;
   collection: "articulos";
-  data: InferEntrySchema<"articulos">
+  data: any
 } & { render(): Render[".md"] };
 "doom-y-doom-2.md": {
 	id: "doom-y-doom-2.md";
   slug: "doom-y-doom-2";
   body: string;
   collection: "articulos";
-  data: InferEntrySchema<"articulos">
+  data: any
+} & { render(): Render[".md"] };
+"el-mito-de-la-razon.md": {
+	id: "el-mito-de-la-razon.md";
+  slug: "el-mito-de-la-razon";
+  body: string;
+  collection: "articulos";
+  data: any
 } & { render(): Render[".md"] };
 };
 "relatos": {
@@ -186,273 +193,273 @@ declare module 'astro:content' {
   slug: "el-012-sobre-una-medida-de-lucha";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "El-uso-del-Calculo-integral-en-diferentes-ramas-de-la-intelectualidad.md": {
 	id: "El-uso-del-Calculo-integral-en-diferentes-ramas-de-la-intelectualidad.md";
   slug: "el-uso-del-calculo-integral-en-diferentes-ramas-de-la-intelectualidad";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "La-Banderita.md": {
 	id: "La-Banderita.md";
   slug: "la-banderita";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "Xiou.md": {
 	id: "Xiou.md";
   slug: "xiou";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "al-doblar-la-esquina.md": {
 	id: "al-doblar-la-esquina.md";
   slug: "al-doblar-la-esquina";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "bajo-el-cielo-de-lima.md": {
 	id: "bajo-el-cielo-de-lima.md";
   slug: "bajo-el-cielo-de-lima";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "como-volveras.md": {
 	id: "como-volveras.md";
   slug: "como-volveras";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "deberian-dar-bonos-a-los-peruanos.md": {
 	id: "deberian-dar-bonos-a-los-peruanos.md";
   slug: "deberian-dar-bonos-a-los-peruanos";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "diogenes-el-perro.md": {
 	id: "diogenes-el-perro.md";
   slug: "diogenes-el-perro";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "el-tiempo-contigo-antes-del-amanecer.md": {
 	id: "el-tiempo-contigo-antes-del-amanecer.md";
   slug: "el-tiempo-contigo-antes-del-amanecer";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "es-momento-de-leer.md": {
 	id: "es-momento-de-leer.md";
   slug: "es-momento-de-leer";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "la-espada.md": {
 	id: "la-espada.md";
   slug: "la-espada";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "la-mancha-de-mi-cabeza.md": {
 	id: "la-mancha-de-mi-cabeza.md";
   slug: "la-mancha-de-mi-cabeza";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "la-noche.md": {
 	id: "la-noche.md";
   slug: "la-noche";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "la-zona-peru-page-1.md": {
 	id: "la-zona-peru-page-1.md";
   slug: "la-zona-peru-page-1";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "la-zona-peru-page-2.md": {
 	id: "la-zona-peru-page-2.md";
   slug: "la-zona-peru-page-2";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "la-zona-peru-page-3.md": {
 	id: "la-zona-peru-page-3.md";
   slug: "la-zona-peru-page-3";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "las-vacunas-contra-el-covid-19-se-deberian-vender.md": {
 	id: "las-vacunas-contra-el-covid-19-se-deberian-vender.md";
   slug: "las-vacunas-contra-el-covid-19-se-deberian-vender";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "lavado-de-cara-para-la-pagina.md": {
 	id: "lavado-de-cara-para-la-pagina.md";
   slug: "lavado-de-cara-para-la-pagina";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "los-dias-de-un-ensimismado.md": {
 	id: "los-dias-de-un-ensimismado.md";
   slug: "los-dias-de-un-ensimismado";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "media-vuelta.md": {
 	id: "media-vuelta.md";
   slug: "media-vuelta";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "mi-mejor-amigo.md": {
 	id: "mi-mejor-amigo.md";
   slug: "mi-mejor-amigo";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "mirando-en-tu-abismo.md": {
 	id: "mirando-en-tu-abismo.md";
   slug: "mirando-en-tu-abismo";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "nos-siguen-pegando-abajo.md": {
 	id: "nos-siguen-pegando-abajo.md";
   slug: "nos-siguen-pegando-abajo";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "oh-no-gates.md": {
 	id: "oh-no-gates.md";
   slug: "oh-no-gates";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "playa-limeña.md": {
 	id: "playa-limeña.md";
   slug: "playa-limeña";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "pronta-entrega.md": {
 	id: "pronta-entrega.md";
   slug: "pronta-entrega";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "que-dia-de.md": {
 	id: "que-dia-de.md";
   slug: "que-dia-de";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "quien-eres.md": {
 	id: "quien-eres.md";
   slug: "quien-eres";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "regreso-a-casa.md": {
 	id: "regreso-a-casa.md";
   slug: "regreso-a-casa";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "rondando-tu-esquina.md": {
 	id: "rondando-tu-esquina.md";
   slug: "rondando-tu-esquina";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "semillero-de-la-humanidad.md": {
 	id: "semillero-de-la-humanidad.md";
   slug: "semillero-de-la-humanidad";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "somos-una-contradiccion-.md": {
 	id: "somos-una-contradiccion-.md";
   slug: "somos-una-contradiccion-";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "spider-man-fanfic-in-home.md": {
 	id: "spider-man-fanfic-in-home.md";
   slug: "spider-man-fanfic-in-home";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "te-miro-con-odio-y-amor-2021.md": {
 	id: "te-miro-con-odio-y-amor-2021.md";
   slug: "te-miro-con-odio-y-amor-2021";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "trunks-viaja-al-pasado.md": {
 	id: "trunks-viaja-al-pasado.md";
   slug: "trunks-viaja-al-pasado";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "tu-pantalon-esta-lleno-de-tierra.md": {
 	id: "tu-pantalon-esta-lleno-de-tierra.md";
   slug: "tu-pantalon-esta-lleno-de-tierra";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "una-corta-experiencia-de-mi-primer-trabajo.md": {
 	id: "una-corta-experiencia-de-mi-primer-trabajo.md";
   slug: "una-corta-experiencia-de-mi-primer-trabajo";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 "volver-a-casa.md": {
 	id: "volver-a-casa.md";
   slug: "volver-a-casa";
   body: string;
   collection: "relatos";
-  data: InferEntrySchema<"relatos">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -464,5 +471,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("./../../src/content/config.js");
+	export type ContentConfig = never;
 }
