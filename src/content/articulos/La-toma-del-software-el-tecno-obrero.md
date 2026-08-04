@@ -1,6 +1,6 @@
 ---
 title: "La toma del software: El tecno-obrero"
-date: "19-03-25"
+date: "19-03-2025"
 image: "https://i.imgur.com/Sn7fLD4.jpeg"  #"https://i.imgur.com/PNOQWhA.png"
 ---
 La sombra de hace ochenta años en la que se vislumbro la importancia de la mano de obra calificada –como científicos, ingenieros, licenciados, doctores, etc.- vuelve a aparecer. Hay que recordar aquellos años cercanos a 1942 llenos de barbarie, en los que reinaba el nacionalismo, el autoritarismo y la avaricia sin límites. En donde un 13 de agosto un grupo de científicos empezaron a utilizar doscientos años de física, decenas de siglos en matemáticas y miles de años de ingenio humano, para solo resolver un dilema: ¿cómo optimizar, como nunca antes, la masacre?

@@ -1,6 +1,6 @@
 ---
 title: "¿Java o Python en las aulas?: El problema de las carreras de informática en el Perú"
-date: "19-07-26"
+date: "19-07-2026"
 image: "https://i.imgur.com/Jua3Jcp.jpeg"
 ---
 

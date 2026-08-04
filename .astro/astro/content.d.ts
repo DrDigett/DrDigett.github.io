@@ -193,6 +193,13 @@ declare module 'astro:content' {
   collection: "articulos";
   data: InferEntrySchema<"articulos">
 } & { render(): Render[".md"] };
+"todos-los-problemas-del-peru-los-resolvera-el-avance-tecnologico-y-cientifico-no.md": {
+	id: "todos-los-problemas-del-peru-los-resolvera-el-avance-tecnologico-y-cientifico-no.md";
+  slug: "todos-los-problemas-del-peru-los-resolvera-el-avance-tecnologico-y-cientifico-no";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
 };
 "relatos": {
 "El-012-sobre-una-medida-de-lucha.md": {

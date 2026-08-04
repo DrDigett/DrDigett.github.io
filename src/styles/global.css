@@ -359,6 +359,14 @@ img {
   margin-bottom: 32px;
 }
 
+.story-description {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-text-light);
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
 .story-content {
   font-family: 'Roboto Mono', monospace;
   font-size: 1rem;

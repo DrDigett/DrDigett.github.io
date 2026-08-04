@@ -1,6 +1,6 @@
 ---
 title: "El mito de la razón técnica en el Perú"
-date: "14-10-25"
+date: "14-10-2025"
 image: "https://i.imgur.com/DaOnCC2.jpeg"
 ---
 los políticos mencionan que nuestro país avanza ya que estamos "digitalizando" (modernizando) los servicios, automatizando las minas y llenando de sensores las ciudades. Pero detrás de este lenguaje tecnócrata se esconde el viejo mito del dominio disfrazado de razón.

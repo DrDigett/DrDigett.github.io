@@ -22,6 +22,8 @@ const slug = entry.slug;
 
       {image && <img class="story-image" src={image} alt={`Ilustración para: ${title}`} />}
 
+      {description && <p class="story-description">{description}</p>}
+
       <div class="story-content">
         <Content />
       </div>
