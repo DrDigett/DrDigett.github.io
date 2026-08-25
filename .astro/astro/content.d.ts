@@ -172,6 +172,13 @@ declare module 'astro:content' {
   collection: "articulos";
   data: InferEntrySchema<"articulos">
 } & { render(): Render[".md"] };
+"breve-prologo-del-exploratory-data-analysis.md": {
+	id: "breve-prologo-del-exploratory-data-analysis.md";
+  slug: "breve-prologo-del-exploratory-data-analysis";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
 "doom-y-doom-2.md": {
 	id: "doom-y-doom-2.md";
   slug: "doom-y-doom-2";
