@@ -1,7 +1,7 @@
 ---
 title: "Bitácora de mis Instrumentos"
-date: "25-06-26"
-image: "https://i.imgur.com/gByDBFM.jpeg"
+date: "00-00-2025"
+image: "https://i.imgur.com/v58VEpe.jpeg"
 ---
 
 Este escrito lo redacto con la finalidad de poder centralizar en una suerte de "Navaja Suiza" los lugares en donde suelo buscar alguna fuente o contenido que me haya servido o me sirva en mis procesos creativos. Así cuando necesite ver los instrumentos que tengo disponibles poder manipularlos con mayor facilidad aquí juntos.

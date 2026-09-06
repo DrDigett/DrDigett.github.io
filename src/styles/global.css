@@ -273,6 +273,50 @@ img {
   text-decoration: none;
 }
 
+/* --- Page quote --- */
+.page-quote {
+  position: relative;
+  margin: 28px 0 40px;
+  padding: 28px 32px 28px 56px;
+  background: linear-gradient(135deg, #e8f7ee 0%, #f7fbf8 100%);
+  border-left: 5px solid var(--color-primary);
+  border-radius: var(--radius);
+  color: var(--color-text-light);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.page-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--color-primary-light);
+  font-family: Georgia, serif;
+}
+
+.page-quote p {
+  margin: 0;
+}
+
+.page-quote strong {
+  font-weight: 700;
+  color: var(--color-secondary);
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+  .page-quote {
+    padding: 22px 20px 22px 44px;
+    font-size: 1rem;
+  }
+}
+
 /* --- Story Grid (listing page) --- */
 .story-grid {
   display: grid;

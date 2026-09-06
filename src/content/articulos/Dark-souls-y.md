@@ -1,6 +1,6 @@
 ---
 title: "Más allá del idealismo gamer: Dark Souls y la verdad materialista"
-date: "09-09-25"
+date: "09-09-2025"
 image: "/images/nos-siguen-pegando-abajo.jpg"
 
 ---
