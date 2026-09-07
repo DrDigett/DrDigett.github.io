@@ -1,5 +1,5 @@
 ---
-title: "Todos los problemas del Perú los resolverá el avance tecnológico y científico ¿NO?"
+title: "Todos los problemas del Perú los resolverá el avance tecnológico y científico ¿no?"
 date: "29-09-2025"
 image: "https://i.imgur.com/nVRnf6f.jpeg"
 description: "Volante para el Centro de Estudiantes de Computación Científica, de mi autoría y actualizado."

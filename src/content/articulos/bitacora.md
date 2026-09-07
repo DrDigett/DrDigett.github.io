@@ -1,6 +1,6 @@
 ---
 title: "Bitácora de mis Instrumentos"
-date: "00-00-2025"
+date: "00-00-00"
 image: "https://i.imgur.com/v58VEpe.jpeg"
 ---
 
