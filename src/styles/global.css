@@ -12,6 +12,8 @@
   --color-border: #ddd;
   --font-heading: 'PT Serif', Georgia, serif;
   --font-body: Inter, system-ui, -apple-system, sans-serif;
+  --font-content: 'Roboto Mono', monospace;
+  --font-subtitle: 'Space Grotesk', var(--font-body);
   --font-accent: 'PT Serif', Georgia, serif;
   --header-height: 64px;
   --max-width: 720px;
@@ -412,7 +414,7 @@ img {
 }
 
 .story-content {
-  font-family: 'Roboto Mono', monospace;
+  font-family: var(--font-content);
   font-size: 1rem;
   line-height: 1.8;
   color: var(--color-text);
@@ -422,10 +424,25 @@ img {
   margin-bottom: 1.2em;
 }
 
-.story-content h2,
+.story-content h2 {
+  font-family: var(--font-content);
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: var(--color-secondary);
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
 .story-content h3 {
-  font-family: var(--font-heading);
-  margin-top: 1.5em;
+  font-family: var(--font-subtitle);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  line-height: 1.4;
+  color: var(--color-text);
+  margin-top: 1.6em;
   margin-bottom: 0.5em;
 }
 

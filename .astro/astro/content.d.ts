@@ -200,6 +200,13 @@ declare module 'astro:content' {
   collection: "articulos";
   data: InferEntrySchema<"articulos">
 } & { render(): Render[".md"] };
+"el-ser-para-si-del-prompt-engineer.md": {
+	id: "el-ser-para-si-del-prompt-engineer.md";
+  slug: "el-ser-para-si-del-prompt-engineer";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
 "java-o-python-en-las-aulas.md": {
 	id: "java-o-python-en-las-aulas.md";
   slug: "java-o-python-en-las-aulas";
