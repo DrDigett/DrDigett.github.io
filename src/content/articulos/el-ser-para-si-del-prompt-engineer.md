@@ -2,27 +2,27 @@
 title: "El ser para sí del Prompt Engineer"
 date: "05-10-2026"
 image: "https://i.imgur.com/IBgVZCc.jpeg"
+description: "Figura 0.0. Fotograma extraído de la película Häxan (1922)."
 ---
 
 ## 1. El LLM en sí
 
-Los grandes modelos de lenguaje (LLM), basados en Transformers (básicamente todos los sistemas a los que nos referimos cuando decimos IA), exhiben su característica más resaltante, el aprendizaje en contexto (*In-Context Learning* o ICL para abreviar), cuando las predicciones que ellos realizan (recordemos que ellos predicen el token siguiente a partir de unos pocos pares de entrada) se van adaptando según la entrada-etiqueta que les hemos entregado.
+Los grandes modelos de lenguaje (LLM) basados en Transformers (la arquitectura de básicamente todos los sistemas a los que nos referimos cuando decimos IA en la actualidad), exhiben su característica más resaltante llamado aprendizaje en contexto (*In-Context Learning*) o ICL para abreviar, cuando las predicciones que ellos realizan (recordemos que ellos predicen el token siguiente a partir de unos pocos pares de entrada) se van adaptando según la entrada-etiqueta que les hemos entregado.
 
 > **Ejemplo:** Cuando le decimos: *«Quiero que me digas nombres latinoamericanos que empiecen con D: Diego, Daniel, David...»*, el LLM nos responderá: *«Dante, Damián, Darío, Deyanira»*.
 
-Gracias al ICL, un modelo de IA no está simplemente copiando y pegando lo que le hemos enviado dentro del contexto, sino «adivinando» la próxima palabra (Dong et al., 2022).
+Gracias al ICL, un modelo de IA no está simplemente copiando y pegando lo que le hemos enviado dentro del contexto, sino esta «adivinando» la próxima palabra (Dong et al., 2022).
+Esta caracterista desencadena en uno de los cuatro patrones de *prompting*: el *few-shot* que nos hace recordar bastante a cómo aprende el ser humano utilizando analogías.
 
-Aquello desencadena en uno de los cuatro patrones de *prompting*, el *few-shot*. Esta capacidad nos hace recordar bastante a cómo aprende el ser humano utilizando analogías.
+Aquella caracteristica tan importante de la IA, la termina explotando tanto internamente que hasta genera dentro de sí vectores por «temáticas de tareas» para agilizar y resolver de manera más precisa algún trabajo. <br>
+Imaginémoslo como una llave. si la IA detecta que tiene que «traducir de español a inglés», saca la llave de traducción y la usa para responder.
 
-Esto la IA lo explota tanto que hasta genera internamente vectores por «temáticas de tareas» para agilizar y resolver de manera más precisa algún trabajo. Imaginémoslo como una llave: si la IA detecta que tiene que «traducir de español a inglés», saca la llave de traducción y la usa para responder.
+Esta capacidad de inferencia de tareas se reconoce como una forma de metaaprendizaje que, curiosamente, nadie la programó o configuró en el «circuito». Incluso no se sabía cómo funcionaba hasta recién en mayo del año pasado gracias al artículo *«Beyond Induction Heads: In-Context Meta Learning Induces Multi-Phase Circuit Emergence»* (Minegishi et al., 2025).
 
-Esta capacidad de inferencia de tareas se reconoce como una forma de metaaprendizaje que, curiosamente, nadie la programó o configuró en el «circuito». Incluso no se sabía cómo funcionaba hasta recién en mayo del año pasado gracias al artículo *«Más allá de los enfoques inductivos: el metaaprendizaje en contexto induce la emergencia de circuitos multifásicos»* (Minegishi et al., 2025).
-
-¿Cómo se desarrolla el ICL? Nace en el preentrenamiento del modelo gracias a la manera en cómo se organizan los datos con los que se instruye. Especialmente con una organización variada, donde no importa el tamaño del dato con el que estamos entrenando, sino la variedad de datos y fuentes con los que se entrena.
-
+**¿Cómo se desarrolla el ICL?** Nace en el preentrenamiento del modelo gracias a la manera en cómo se organizan los datos con los que se instruye. Especialmente con una organización variada, donde no importa el tamaño del dato con el que estamos entrenando, sino la variedad de datos y fuentes con los que se entrena.
 Ahora bien, ya sabemos que el ICL nace en el preentrenamiento. Pero la pregunta clave es: cuando ya tenemos el modelo entrenado y le entregamos un *prompt*, ¿qué pasa ahí adentro? ¿Cómo hace el modelo para «entender» lo que le pedimos?
 
-La respuesta corta es que el modelo no comprende el significado de las palabras y simplemente ejecuta algoritmos estadísticos. El motor detrás de esta aparente capacidad de aprendizaje es un mecanismo llamado circuito de inducción (*induction head*). Este circuito actúa como un sistema de copia y pega biestacional donde dos cabezas de atención, ubicadas en diferentes capas del transformador, trabajan en equipo para resolver un problema: completar el patrón `[A][B] ... [A] → [B]`. Esto lo hacen dos cabezas trabajando juntas: una mira el token anterior; la otra busca dónde apareció ese token antes en el contexto y copia lo que le siguió.
+La respuesta corta es que el modelo no comprende el significado de las palabras y simplemente ejecuta algoritmos estadísticos. El motor detrás de esta aparente capacidad de aprendizaje es un mecanismo llamado circuito de inducción (*induction head*). Este circuito actúa como un sistema de copia y pega biestacional donde dos cabezas de atención, ubicadas en diferentes capas del transformador (las que se encargan de procesar texto), trabajan en equipo para resolver un problema: completar el patrón `[A][B] ... [A] → [B]`. Esto lo realizan dos cabezas trabajando juntas: una mira el token anterior; la otra busca dónde apareció ese token antes en el contexto y copia lo que le siguió.
 
 > **Ejemplo:** *«El joven [Henry] [Spencer] entró a su departamento... Al ver dentro de los cajones, [Henry]...»*. La primera cabeza ya ha asociado internamente que antes de `[Spencer]` venía `[Henry]`. Al llegar al segundo `[Henry]`, la cabeza de inducción busca hacia atrás, detecta el primer bloque y concluye matemáticamente que la siguiente palabra debe ser `[Spencer]` (Olsson et al., 2022).
 
@@ -32,7 +32,7 @@ Si el ICL depende enteramente de que el modelo detecte patrones en el contexto q
 
 ## 2. Hacerse para sí
 
-La estructuración de un *prompt* de nivel de producción no debe abordarse como una reddacion en prosa libre, lo correcto seria que sea equivalente al planeamiento de la arquitectura de un software bien estructurado. La convergencia entre la literatura científica y las directrices técnicas de OpenAI para su API y ChatGPT establece un conjunto de principios arquitectónicos para garantizar la reproducibilidad y veracidad de las respuestas.
+La estructuración de un *prompt* a nivel de producción no debe abordarse como una redacion en prosa libre, lo correcto seria que sea equivalente al planeamiento delicado de la arquitectura de un software bien estructurado. La convergencia entre la literatura científica y las directrices técnicas de OpenAI para su API y ChatGPT establece un conjunto de principios arquitectónicos para garantizar la reproducibilidad y veracidad de las respuestas.
 
 ### I. Delimitación de roles
 
