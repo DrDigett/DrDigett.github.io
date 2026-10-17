@@ -71,6 +71,7 @@ Todas las clases del artículo están definidas en `src/styles/global.css`, dent
 
 - Usa los elementos ya estilizados; **no agregues HTML ni CSS inline** en el `.md`.
 - Si necesitas un elemento nuevo (p. ej. tablas), agrégalo como regla `.story-content <elemento>` en `src/styles/global.css` reutilizando las variables (`--color-primary`, `--color-secondary`, `--radius`, etc.), no dentro del Markdown.
+- `.story-content` ya incluye `overflow-wrap: anywhere`, de modo que las URLs largas se parten y nunca desbordan la pantalla en móvil. Al añadir listas, tablas o bloques nuevos, no desactives este comportamiento (`overflow-wrap`, `word-break`, `white-space: nowrap`); si usas `nowrap`, envuélvelo con `overflow-x: auto`.
 
 ## Checklist antes de terminar
 
@@ -79,4 +80,5 @@ Todas las clases del artículo están definidas en `src/styles/global.css`, dent
 3. Se usan `##` / `###`, blockquotes y listas según esta guía.
 4. Todos los enlaces son descriptivos `[texto](url)`.
 5. Si se citan fuentes, existe `## Referencias` en lista con viñetas.
-6. `npm run build` pasa sin errores.
+6. No hay desbordamiento horizontal en móvil (revisa sobre todo las URLs largas de `## Referencias`).
+7. `npm run build` pasa sin errores.
