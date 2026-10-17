@@ -451,6 +451,75 @@ img {
   border-radius: var(--radius);
 }
 
+.story-content a {
+  color: var(--color-secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-light);
+  text-underline-offset: 3px;
+}
+
+.story-content a:hover,
+.story-content a:focus-visible {
+  color: var(--color-primary-dark);
+}
+
+.story-content strong {
+  color: var(--color-secondary);
+  font-weight: 700;
+}
+
+.story-content blockquote {
+  margin: 1.6em 0;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #e8f7ee 0%, #f7fbf8 100%);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  color: var(--color-text-light);
+  font-family: var(--font-heading);
+  font-style: italic;
+  line-height: 1.75;
+}
+
+.story-content blockquote p {
+  margin-bottom: 0;
+}
+
+.story-content blockquote p + p {
+  margin-top: 0.8em;
+}
+
+.story-content ul,
+.story-content ol {
+  margin: 0 0 1.2em;
+  padding-left: 1.6em;
+}
+
+.story-content li {
+  margin-bottom: 0.55em;
+  line-height: 1.75;
+}
+
+.story-content li::marker {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}
+
+.story-content hr {
+  border: 0;
+  height: 1px;
+  background: var(--color-border);
+  margin: 2.4em 0;
+}
+
+.story-content code {
+  font-family: var(--font-content);
+  font-size: 0.9em;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
 .story-nav {
   margin-top: 48px;
   padding-top: 24px;

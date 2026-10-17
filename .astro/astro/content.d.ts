@@ -172,6 +172,13 @@ declare module 'astro:content' {
   collection: "articulos";
   data: InferEntrySchema<"articulos">
 } & { render(): Render[".md"] };
+"asimetria-productiva-e-IA.md": {
+	id: "asimetria-productiva-e-IA.md";
+  slug: "asimetria-productiva-e-ia";
+  body: string;
+  collection: "articulos";
+  data: InferEntrySchema<"articulos">
+} & { render(): Render[".md"] };
 "bitacora.md": {
 	id: "bitacora.md";
   slug: "bitacora";
