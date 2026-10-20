@@ -12,6 +12,10 @@ Al terminar cualquier cambio de contenido, verifica con:
 npm run build
 ```
 
+## ⚠️ Regla de intervención del texto
+
+**NO MODIFICAR LA ESTRUCTURA NI NINGUNA PALABRA DEL TEXTO**, a menos que falte una tilde o esté mal escrita una palabra; falte o sobre una coma,punto,doble punto, punto y coma; mejorar las citas y a lo mucho te puedes tomar la libertad de separar un parrafo para darle un estilo si lo ves 100% necesario por practicidad y estilo css de la web. Más que eso, no.
+
 ## Ubicación y nombre de archivo
 
 - Carpeta: `src/content/articulos/`
